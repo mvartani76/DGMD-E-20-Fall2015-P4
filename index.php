@@ -13,23 +13,18 @@
 </head>
 <body>
   <div data-role="page" id="home">
-    <div data-role="header">
-        <ul class="nav">
-            <li class="logo"><a href="#">Mike's Payments</a>
-            <li class="btn"><a href="#" class="btn-link">&#9776;</a>
-              <ul class="menu">
-                <li class="active"><a href="./index.php">Home</a></li>
-                <li><a href="./services.php">Services</a></li>
-                <li><a href="./createcard.php">Create Card</a></li>
-                <li><a href="./login.php">Login</a></li>
-                <li><a href="./register.php">Register</a></li>
-                <li><a href="./contact.php">Contact</a></li>
-              </ul>
-          </li>
+    <div data-role="header" data-position="fixed">
+      <div data-role="navbar">
+        <ul>
+          <li class="tab"><a class="ui-btn-active ui-state-persist" href="#home">Home</a></li>
+          <li class="tab"><a href="#services">Services</a></li>
+          <li class="tab"><a href="#createcard">Create Card</a></li>
+          <li class="tab"><a href="#login">Login</a></li>
+          <li class="tab"><a href="#register">Register</a></li>
+          <li class="tab"><a href="#contact">Contact</a></li>
         </ul>
       </div>
     </div>
-    
     <div role="main" class="ui-content" >
       <div class="messydeskpic">
         <div class="storyandsolution">
@@ -89,9 +84,87 @@
   </div><!-- End of Home Page -->
   
   <div data-role="page" id="services">
-    <div data-role="header">
+    <div data-role="header" data-position="fixed">
+      <div data-role="navbar">
+          <ul>
+              <li class="tab"><a href="#home">Home</a></li>
+              <li class="tab"><a class="ui-btn-active ui-state-persist" href="#services">Services</a></li>
+              <li class="tab"><a href="#createcard">Create Card</a></li>
+              <li class="tab"><a href="#login">Login</a></li>
+              <li class="tab"><a href="#register">Register</a></li>
+              <li class="tab"><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
     </div>
     <div role="main" class="ui-content">
+
+    <div class="servicestitle">My Services</div>
+    <div class="ui-grid-a">
+      <div class="ui-block-a">
+        <h2 class="servicesh2lighterblue">Retail Merchant Account:</h2>
+          <img class="creditcardspic" src="./images/credit-cards.jpg">
+          <p>I will support all the major payment types for you or your business needs.  I just want to be paid back... :)</p>
+          <p>I have competitive rates for all four of the major credit and debit cards. I also support Diners Club®, Carte Blanche®, JCB®, stored value cards,
+            corporate cards, EBT cards, WEX, Voyager, Fleet One and Fuelman. If I currently do not support your card of choice, I will make sure to quickly adopt your
+            card as I am mostly concerned about getting paid back quickly...</p>
+          <p>You get quick and reliable settlement to your financial institution so I get paid back quicker.
+          Again, to make sure that I get paid back on time, I am set up to take care of all your merchant needs and requirements.</p>
+        <p class="clear">&nbsp;</p>
+      
+        <h2 class="servicesh2darkerblue">Gas Stations and Convenience Store Solutions:</h2>
+          <img src="./images/gas-station.jpg" class="gasstationpic">
+          <p>Since I have put a lot of time in to methods for paying me back, I figured I should utilize some of this knowledge into other areas and generate potential revenue from it.
+            One of these areas is the gas station and convenience store payment market.</p>
+          <p>My options in this area include stand-alone terminals, ECRs (Electronic Cash Registers), and pay-at-the-pump applications in either petroleum or c-store environments.
+          I am currently working on integrating some of my solutions with GasTV units and other pump based infotainment devices.</p>
+          <p>Again, I support all major credit and debit cards, private label and Fleet cards, including Wright Express, Voyager, Fuelman, Visa and MasterCard Fleet, and Prepaid Cards.</p>
+          
+          <p class="clear">&nbsp;</p>
+
+        <h2 class="servicesh2lighterblue">Restaurant Merchant Account:</h2>
+        <img src="./images/POS_Restaurant_touchgirl.jpg" class="restmerchacctpic">
+          <p>I can offer a variety of solutions to meet your processing needs, including point-of-sale (POS) interfaces stand-alone terminals and PC products.
+          I integrate with major restaurant management systems including authorization systems to report reconciliations.</p>
+          <p>I have a variety of restaurant applications for both Android and iOS devices so your servers and managers can use mobile devices such as smartphones and tablets to take orders, observe inventories and process payments.</p>
+        <p class="clear">&nbsp;</p>
+
+        <h2 class="servicesh2lighterblue">Pin-based Debit:</h2>
+          <img src="./images/pinbaseddebit.jpg" class="pinbaseddebitpic">
+          <ul>
+            <li>PIN prompting for debit cards allows the transaction to be routed to the more economical debit networks.</li>
+            <li>Dynamic routing of PIN-based debit cards to the least expensive debit networks increases the retailer’s margins.</li>
+            <li>Provides a secure form of payment</li>
+            <li>Allows you to accept PIN-based debit cards for BILL PAYMENT</li>
+          </ul>
+      </div> <!-- End ui-block-a -->
+      <div class="ui-block-b">
+        <h2 class="servicesh2darkerblue">Wireless Solutions:</h2>
+        <img src="./images/mp-iphone.png" class="mobilepayphonepic">
+        
+        <p>Mobility to your checkout process can improve customer service, expand your sales, and gets me paid back quicker.  Wireless transactions can be processed securely and swiftly, allowing your customer to pay on the spot.</p>
+        <p>Wireless point of sale terminal allows you to accept card types typically not accepted when conducting transactions without a dedicated phone line. Wireless payments requires only network connectivity for transaction processing.
+          If you keep your payment device in a fixed location and want to eradicate tangled telephone cords, or if you travel with your payment device and need the ability to process a transaction from a variety of locations, wireless solution is right for your business.</p>
+        <p>With my NEW Mobile Pay you can save money by downloading my app found in the Apple Store or Google Marketplace so you can utilize your smart phone or wireless device to run transactions.</P>
+
+        <img src="./images/mobile-payment-logos.png" class="mobilepaylogospic">
+          <p>I support the following wireless payment options: Apple Pay, Square, Intuit Go, Venmo, PayPal,
+            Google Wallet, SnapCash, Popmoney, <span id="lesspaymentoptions"> Dwolla, TabbedOut, Zong, Stripe,
+            mopay, obopay, PayOne, cellum, and mPass <span id="justlesspaymentoptions">(less).</span></span><span id="morepaymentoptions">and <span id="justmorepaymentoptions">more.</span></span></p>
+          <p>If you do not see your preferred wireless payment option, please contact me
+          directly and I will see what I can do to get it up and running as quickly as possible.</p>
+        <p class="clear">&nbsp;</p>
+
+        <h2 class="servicesh2darkerblue">eCommerce Solutions:</h2>
+          <img src="./images/keyboard_pay.png" class="pinbaseddebitpic">
+          <p>I have created several solutions that together have all the options to work with any merchant’s business online solution.  Variations within my several offerings are described below.</p>
+          <p><strong>Application Programming Interface (API) -</strong> An API allows you to connect the gateway directly with your web application for a seamless customer experience. It also enables a range of processing scenarios for flexibility in implementing custom business logic, helping you gain platform independence; offers ease of integration and transaction security.</p>
+
+          <p><strong>Payment Pages (Hosted Checkout) –</strong> Your payment processing is completely hosted by First Data and reduces PCI Scope. It rapidly integrates payment processing into your website, and optimizes for mobile devices so merchants can reach “on the go” consumers.</p>
+
+          <p><strong>Real-time Payment Manager (RPM) –</strong> The Virtual Terminal works as base access point for the gateway solution. Its back-office web product allows you to easily look up transaction activity, service your consumers and reconcile your online store. Functionalities include detailed reporting, transaction dashboard, online virtual point-of-sale terminal, transaction history search, recurring payment plans, user administration and more.</P>
+      </div> <!-- End block-b -->
+    </div> <!-- End grid-a -->
+
     </div>
     <div data-role="footer" data-theme="a">
       <h4>Page Footer</h4>
@@ -99,27 +172,17 @@
   </div><!-- End of Services Page -->
 
   <div data-role="page" id="createcard">
-    <div data-role="header">
-
-<div class="wrapper">
-      <div class="navigation">
-        <ul class="nav">
-            <li class="logo"><a href="#">Mike's Payments</a>
-            <li class="btn"><a href="#" class="btn-link">&#9776;</a>
-              <ul class="menu">
-                <li><a href="./index.php">Home</a></li>
-                <li><a href="./services.php">Services</a></li>
-                <li class="active"><a href="./createcard.php">Create Card</a></li>
-                <li><a href="./login.php">Login</a></li>
-                <li><a href="./register.php">Register</a></li>
-                <li><a href="./contact.php">Contact</a></li>
-              </ul>
-          </li>
+    <div data-role="header" data-position="fixed">
+      <div data-role="navbar">
+        <ul>
+          <li class="tab"><a href="#home">Home</a></li>
+          <li class="tab"><a href="#services">Services</a></li>
+          <li class="tab"><a class="ui-btn-active ui-state-persist" href="#createcard">Create Card</a></li>
+          <li class="tab"><a href="#login">Login</a></li>
+          <li class="tab"><a href="#register">Register</a></li>
+          <li class="tab"><a href="#contact">Contact</a></li>
         </ul>
       </div>
-    </div>
-
-
     </div>
     <div role="main" class="ui-content">
 
@@ -166,7 +229,7 @@
     <canvas id="canvas4"></canvas>
   </div>
 
-      
+
     </div>
     <div data-role="footer" data-theme="a">
       <h4>Page Footer</h4>
@@ -174,26 +237,17 @@
   </div><!-- End of Create Card Page -->
 
   <div data-role="page" id="login">
-    <div data-role="header">
-
-<div class="wrapper">
-      <div class="navigation">
-        <ul class="nav">
-            <li class="logo"><a href="#">Mike's Payments</a>
-            <li class="btn"><a href="#" class="btn-link">&#9776;</a>
-              <ul class="menu">
-                <li><a href="./index.php">Home</a></li>
-                <li><a href="./services.php">Services</a></li>
-                <li><a href="./createcard.php">Create Card</a></li>
-                <li class="active"><a href="./login.php">Login</a></li>
-                <li><a href="./register.php">Register</a></li>
-                <li><a href="./contact.php">Contact</a></li>
-              </ul>
-          </li>
+    <div data-role="header" data-position="fixed">
+      <div data-role="navbar">
+        <ul>
+          <li class="tab"><a href="#home">Home</a></li>
+          <li class="tab"><a href="#services">Services</a></li>
+          <li class="tab"><a href="#createcard">Create Card</a></li>
+          <li class="tab"><a class="ui-btn-active ui-state-persist" href="#login">Login</a></li>
+          <li class="tab"><a href="#register">Register</a></li>
+          <li class="tab"><a href="#contact">Contact</a></li>
         </ul>
       </div>
-    </div>
-
     </div>
     <div role="main" class="ui-content">
     
@@ -217,27 +271,19 @@
   </div><!-- End of Login Page -->
   
   <div data-role="page" id="register">
-    <div data-role="header">
-
-    <div class="wrapper">
-      <div class="navigation">
-        <ul class="nav">
-            <li class="logo"><a href="#">Mike's Payments</a>
-            <li class="btn"><a href="#" class="btn-link">&#9776;</a>
-              <ul class="menu">
-                <li><a href="./index.php">Home</a></li>
-                <li><a href="./services.php">Services</a></li>
-                <li><a href="./createcard.php">Create Card</a></li>
-                <li><a href="./login.php">Login</a></li>
-                <li class="active"><a href="./register.php">Register</a></li>
-                <li><a href="./contact.php">Contact</a></li>
-              </ul>
-          </li>
+    <div data-role="header" data-position="fixed">
+      <div data-role="navbar">
+        <ul>
+          <li class="tab"><a href="#home">Home</a></li>
+          <li class="tab"><a href="#services">Services</a></li>
+          <li class="tab"><a href="#createcard">Create Card</a></li>
+          <li class="tab"><a href="#login">Login</a></li>
+          <li class="tab"><a class="ui-btn-active ui-state-persist" href="#register">Register</a></li>
+          <li class="tab"><a href="#contact">Contact</a></li>
         </ul>
       </div>
     </div>
 
-    </div>
     <div role="main" class="ui-content">
 
 <div class="registercontainer">  
@@ -277,54 +323,61 @@
   </div><!-- End of Register Page -->
 
   <div data-role="page" id="contact">
-    <div data-role="header">
-
-<div class="wrapper">
-      <div class="navigation">
-        <ul class="nav">
-            <li class="logo"><a href="#">Mike's Payments</a>
-            <li class="btn"><a href="#" class="btn-link">&#9776;</a>
-              <ul class="menu">
-                <li><a href="./index.php">Home</a></li>
-                <li><a href="./services.php">Services</a></li>
-                <li><a href="./createcard.php">Create Card</a></li>
-                <li><a href="./login.php">Login</a></li>
-                <li><a href="./register.php">Register</a></li>
-                <li class="active"><a href="./contact.php">Contact</a></li>
-              </ul>
-          </li>
+    <div data-role="header" data-position="fixed">
+      <div data-role="navbar">
+        <ul>
+          <li class="tab"><a href="#home">Home</a></li>
+          <li class="tab"><a href="#services">Services</a></li>
+          <li class="tab"><a href="#createcard">Create Card</a></li>
+          <li class="tab"><a href="#login">Login</a></li>
+          <li class="tab"><a href="#register">Register</a></li>
+          <li class="tab"><a class="ui-btn-active ui-state-persist" href="#contact">Contact</a></li>
         </ul>
       </div>
     </div>
 
-    </div>
     <div role="main" class="ui-content">
 
 <div class="contactcontainer">  
   <form id="contact_id" method="post">
     <h3>Quick Contact</h3>
     <h4>Contact us today, and get reply with in 24 hours!</h4>
-    <fieldset><input placeholder="First Name" id="firstname" name="firstname" type="text" tabindex="1" required autofocus></fieldset>
-    <fieldset><input placeholder="Last Name" id="lastname" name="lastname" type="text" tabindex="2" required></fieldset>
-    <fieldset><input placeholder="Your Email Address" id="emailaddr" name="emailaddr" type="email" tabindex="3"></fieldset>
-    <fieldset><input placeholder="Your Phone Number" id="phonenumber" name="phonenumber" type="tel" tabindex="4"></fieldset>
-    <fieldset><input placeholder="Your Web Site starts with http://" id="weburl" name="weburl" type="url" tabindex="5">
-    </fieldset>
-  <fieldset><h4>What type of message do you want to send?</h4>
-      <input type="radio" id="dept1" name="dept" value="general" tabindex="6" checked> General
-      <input type="radio" id="dept2" name="dept" value="sales" tabindex="7"> Sales
-      <input type="radio" id="dept3" name="dept" value="marketing" tabindex="8"> Marketing
-      <input type="radio" id="dept4" name="dept" value="technical" tabindex="9"> Technical
+    <div class="ui-field-contain">
+      <input placeholder="First Name" id="firstname" name="firstname" type="text" tabindex="1" required autofocus>
+      <input placeholder="Last Name" id="lastname" name="lastname" type="text" tabindex="2" required>
+      <input placeholder="Your Email Address" id="emailaddr" name="emailaddr" type="email" tabindex="3">
+      <input placeholder="Your Phone Number" id="phonenumber" name="phonenumber" type="tel" tabindex="4">
+      <input placeholder="Your Web Site starts with http://" id="weburl" name="weburl" type="url" tabindex="5">
+    </div>
+  <fieldset data-role="controlgroup" data-type="horizontal">
+    <h4>What type of message do you want to send?</h4>
+      <input type="radio" id="dept1" name="dept" value="general" tabindex="6" checked>
+      <label for="dept1">General</label>
+      <input type="radio" id="dept2" name="dept" value="sales" tabindex="7">
+      <label for="dept2">Sales</label>
+      <input type="radio" id="dept3" name="dept" value="marketing" tabindex="8">
+      <label for="dept3">Marketing</label>
+      <input type="radio" id="dept4" name="dept" value="technical" tabindex="9">
+      <label for="dept4">Technical</label>
   </fieldset>
-    <fieldset><textarea placeholder="Type your Message Here...." tabindex="10" required></textarea>
-    </fieldset>
+
+
+    <div class="ui-field-contain">
+      <textarea placeholder="Type your Message Here...." tabindex="10" required></textarea>
+    </div>
     <h4 class="centerh4">Preferred time for phone contact...</h4>
     <div class="form50">
-    <fieldset><label>Start Time</label><input id="start_time" name="start_time" type="time" tabindex="11" value="00:00"></fieldset>
-  </div>
-      <div class="form50">
-    <fieldset><label>End Time</label><input id="end_time" name="end_time" type="time" tabindex="12" value="23:59"></fieldset>
-  </div>
+      <fieldset>
+        <label for="start_time">Start Time</label>
+        <input id="start_time" name="start_time" type="time" tabindex="11" value="00:00">
+      </fieldset>
+    </div>
+    <div class="form50">
+      <fieldset>
+        <label for="end_time">End Time</label>
+        <input id="end_time" name="end_time" type="time" tabindex="12" value="23:59">
+      </fieldset>
+    </div>
     <fieldset>
       <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
     </fieldset>
