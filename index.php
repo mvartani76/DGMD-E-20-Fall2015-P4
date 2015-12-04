@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Payment Tracking Home</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+  <link rel="stylesheet" href="themes/cool-slate.min.css" />
+  <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
   <link href="./css/menu.css" rel="stylesheet">
   <link href="./css/services.css" rel="stylesheet">
   <link href="./css/imagestyle.css" rel="stylesheet">  
   <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
-
 </head>
 <body>
-  <section data-role="page" id="home">
-    <div data-role="header" data-position="fixed">
-      <div data-role="navbar">
+  <section data-role="page" id="home" data-theme="c">
+    <header data-role="header" data-position="fixed">
+      <nav data-role="navbar">
         <ul>
           <li class="tab"><a class="ui-btn-active ui-state-persist" href="#home">Home</a></li>
           <li class="tab"><a href="#services">Services</a></li>
@@ -23,9 +25,9 @@
           <li class="tab"><a href="#register">Register</a></li>
           <li class="tab"><a href="#contact">Contact</a></li>
         </ul>
-      </div>
-    </div>
-    <div role="main" class="ui-content" >
+      </nav>
+    </header>
+    <main data-role="main" class="ui-content">
       <div class="messydeskpic">
         <div class="storyandsolution">
         <h1>My Basic Problem</h1>
@@ -76,27 +78,27 @@
             <p>Well if you owe me money, you have to use this...:) If you want to borrow money from me, you have to use this...:)
         </div>
       </div>
-    </div>
+    </main>
 
-    <div data-role="footer" data-theme="a">
-      <h4>Page Footer</h4>
+    <div data-role="footer" data-position="fixed">
+      <p>Page Footer</p>
     </div><!-- /footer -->
   </section><!-- End of Home Page -->
   
-  <section data-role="page" id="services">
+  <section data-role="page" id="services" data-theme="c">
     <div data-role="header" data-position="fixed">
-      <div data-role="navbar">
-          <ul>
-              <li class="tab"><a href="#home">Home</a></li>
-              <li class="tab"><a class="ui-btn-active ui-state-persist" href="#services">Services</a></li>
-              <li class="tab"><a href="#createcard">Create Card</a></li>
-              <li class="tab"><a href="#login">Login</a></li>
-              <li class="tab"><a href="#register">Register</a></li>
-              <li class="tab"><a href="#contact">Contact</a></li>
-          </ul>
-        </div>
+      <nav data-role="navbar">
+        <ul>
+          <li class="tab"><a href="#home">Home</a></li>
+          <li class="tab"><a class="ui-btn-active ui-state-persist" href="#services">Services</a></li>
+          <li class="tab"><a href="#createcard">Create Card</a></li>
+          <li class="tab"><a href="#login">Login</a></li>
+          <li class="tab"><a href="#register">Register</a></li>
+          <li class="tab"><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
     </div>
-    <div role="main" class="ui-content">
+    <main data-role="main" class="ui-content">
 
     <div class="servicestitle">My Services</div>
     <div class="ui-grid-a">
@@ -109,7 +111,7 @@
             card as I am mostly concerned about getting paid back quickly...</p>
           <p>You get quick and reliable settlement to your financial institution so I get paid back quicker.
           Again, to make sure that I get paid back on time, I am set up to take care of all your merchant needs and requirements.</p>
-        <p class="clear">&nbsp;</p>
+          <p class="clear">&nbsp;</p>
       
         <h2 class="servicesh2darkerblue">Gas Stations and Convenience Store Solutions:</h2>
           <img src="./images/gas-station.jpg" class="gasstationpic">
@@ -165,15 +167,15 @@
       </div> <!-- End block-b -->
     </div> <!-- End grid-a -->
 
-    </div>
-    <div data-role="footer" data-theme="a">
-      <h4>Page Footer</h4>
+    </main>
+    <div data-role="footer" data-position="fixed">
+      <p>Page Footer</p>
     </div><!-- /footer -->
   </section><!-- End of Services Page -->
 
-  <section data-role="page" id="createcard">
+  <section data-role="page" id="createcard" data-theme="c">
     <div data-role="header" data-position="fixed">
-      <div data-role="navbar">
+      <nav data-role="navbar">
         <ul>
           <li class="tab"><a href="#home">Home</a></li>
           <li class="tab"><a href="#services">Services</a></li>
@@ -182,9 +184,9 @@
           <li class="tab"><a href="#register">Register</a></li>
           <li class="tab"><a href="#contact">Contact</a></li>
         </ul>
-      </div>
+      </nav>
     </div>
-    <div role="main" class="ui-content">
+    <main data-role="main" class="ui-content">
 
       <div class="createcardcontainer">  
         <form id="createcard_id" method="post">
@@ -228,15 +230,15 @@
         <canvas id="canvas3"></canvas>
         <canvas id="canvas4"></canvas>
       </div>
-    </div>
-    <div data-role="footer" data-theme="a">
-      <h4>Page Footer</h4>
+    </main>
+    <div data-role="footer" data-position="fixed">
+      <p>Page Footer</p>
     </div><!-- /footer -->
   </section><!-- End of Create Card Page -->
 
-  <section data-role="page" id="login">
+  <section data-role="page" id="login" data-theme="c">
     <div data-role="header" data-position="fixed">
-      <div data-role="navbar">
+      <nav data-role="navbar">
         <ul>
           <li class="tab"><a href="#home">Home</a></li>
           <li class="tab"><a href="#services">Services</a></li>
@@ -245,9 +247,9 @@
           <li class="tab"><a href="#register">Register</a></li>
           <li class="tab"><a href="#contact">Contact</a></li>
         </ul>
-      </div>
+      </nav>
     </div>
-    <div role="main" class="ui-content">
+    <main data-role="main" class="ui-content">
     
       <div class="logincontainer">  
         <form id="login_id" method="post">
@@ -260,15 +262,15 @@
             </fieldset>
           </form>
       </div>
-    </div>
-    <div data-role="footer" data-theme="a">
-      <h4>Page Footer</h4>
+    </main>
+    <div data-role="footer" data-position="fixed">
+      <p>Page Footer</p>
     </div><!-- /footer -->
   </section><!-- End of Login Page -->
   
-  <section data-role="page" id="register">
+  <section data-role="page" id="register" data-theme="c">
     <div data-role="header" data-position="fixed">
-      <div data-role="navbar">
+      <nav data-role="navbar">
         <ul>
           <li class="tab"><a href="#home">Home</a></li>
           <li class="tab"><a href="#services">Services</a></li>
@@ -277,10 +279,10 @@
           <li class="tab"><a class="ui-btn-active ui-state-persist" href="#register">Register</a></li>
           <li class="tab"><a href="#contact">Contact</a></li>
         </ul>
-      </div>
+      </nav>
     </div>
 
-    <div role="main" class="ui-content">
+    <main data-role="main" class="ui-content">
       <div class="registercontainer">  
         <form id="register_id" method="post">
           <h3>Registration</h3>
@@ -310,15 +312,15 @@
         </form>
       </div>
 
-    </div>
-    <div data-role="footer" data-theme="a">
-      <h4>Page Footer</h4>
+    </main>
+    <div data-role="footer" data-position="fixed">
+      <p>Page Footer</p>
     </div><!-- /footer -->
   </section><!-- End of Register Page -->
 
-  <section data-role="page" id="contact">
+  <section data-role="page" id="contact" data-theme="c">
     <div data-role="header" data-position="fixed">
-      <div data-role="navbar">
+      <nav data-role="navbar">
         <ul>
           <li class="tab"><a href="#home">Home</a></li>
           <li class="tab"><a href="#services">Services</a></li>
@@ -327,10 +329,10 @@
           <li class="tab"><a href="#register">Register</a></li>
           <li class="tab"><a class="ui-btn-active ui-state-persist" href="#contact">Contact</a></li>
         </ul>
-      </div>
+      </nav>
     </div>
 
-    <div role="main" class="ui-content">
+    <main data-role="main" class="ui-content">
       <div class="contactcontainer">  
         <form id="contact_id" method="post">
           <h3>Quick Contact</h3>
@@ -375,9 +377,9 @@
           </fieldset>
         </form>
       </div>
-    </div>
-    <div data-role="footer" data-theme="a">
-      <h4>Page Footer</h4>
+    </main>
+    <div data-role="footer" data-position="fixed">
+      <p>Page Footer</p>
     </div><!-- /footer -->
   </section><!-- End of Contact Page -->
 
