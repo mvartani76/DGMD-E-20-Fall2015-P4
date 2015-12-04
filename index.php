@@ -7,9 +7,7 @@
   <link rel="stylesheet" href="themes/cool-slate.min.css" />
   <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
   <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
-  <link href="./css/menu.css" rel="stylesheet">
-  <link href="./css/services.css" rel="stylesheet">
-  <link href="./css/imagestyle.css" rel="stylesheet">
+
   <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
 </head>
@@ -20,7 +18,6 @@
         <ul>
           <li class="tab"><a class="ui-btn-active ui-state-persist" href="#home">Home</a></li>
           <li class="tab"><a href="#services">Services</a></li>
-          <li class="tab"><a href="#createcard">Create Card</a></li>
           <li class="tab"><a href="#login">Login</a></li>
           <li class="tab"><a href="#register">Register</a></li>
           <li class="tab"><a href="#contact">Contact</a></li>
@@ -91,7 +88,6 @@
         <ul>
           <li class="tab"><a href="#home">Home</a></li>
           <li class="tab"><a class="ui-btn-active ui-state-persist" href="#services">Services</a></li>
-          <li class="tab"><a href="#createcard">Create Card</a></li>
           <li class="tab"><a href="#login">Login</a></li>
           <li class="tab"><a href="#register">Register</a></li>
           <li class="tab"><a href="#contact">Contact</a></li>
@@ -173,76 +169,12 @@
     </div><!-- /footer -->
   </section><!-- End of Services Page -->
 
-  <section data-role="page" id="createcard" data-theme="c">
-    <div data-role="header" data-position="fixed">
-      <nav data-role="navbar">
-        <ul>
-          <li class="tab"><a href="#home">Home</a></li>
-          <li class="tab"><a href="#services">Services</a></li>
-          <li class="tab"><a class="ui-btn-active ui-state-persist" href="#createcard">Create Card</a></li>
-          <li class="tab"><a href="#login">Login</a></li>
-          <li class="tab"><a href="#register">Register</a></li>
-          <li class="tab"><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-    <main data-role="main" class="ui-content">
-
-      <div class="createcardcontainer">  
-        <form id="createcard_id" method="post">
-          <h3>Create Your Card</h3>
-            <h4>Please enter the following information to design your custom credit card...</h4>
-            <fieldset>
-              <select id="card_image">
-                <option value="" disabled selected>Select your Background Image</option>
-                <option value="nature">Nature</option>
-                <option value="sports">Sports</option>
-                <option value="automotive">Automotive</option>
-                <option value="skyline">City Skyline</option>
-              </select>
-            </fieldset>
-            <fieldset><input placeholder="First Name" id="card_firstname" name="firstname" type="text" required></fieldset>
-            <fieldset><input placeholder="Last Name" id="card_lastname" name="lastname" type="text" required></fieldset>
-            <fieldset>
-              <label>Bank Logo Color (Red) </label>
-              <input type="range" min="0" max="255" name="scale" id="card_image_rgb_red">
-            </fieldset>
-            <fieldset>
-              <label>Bank Logo Color (Green) </label>
-              <input type="range" min="0" max="255" name="scale" id="card_image_rgb_green">
-            </fieldset>
-            <fieldset>
-              <label>Bank Logo Color (Blue) </label>
-              <input type="range" min="0" max="255" name="scale" id="card_image_rgb_blue">
-            </fieldset>        
-            <fieldset>
-              <button type="submit" id="createcard_id-create">Create Card</button>
-            </fieldset>
-            <fieldset>
-              <button type="submit" id="createcard_id-clear">Clear Card</button>
-            </fieldset>
-          </form>
-      </div>
-
-      <div class="canvascontainer">
-        <canvas id="canvas1"></canvas>
-        <canvas id="canvas2"></canvas>
-        <canvas id="canvas3"></canvas>
-        <canvas id="canvas4"></canvas>
-      </div>
-    </main>
-    <div data-role="footer" data-position="fixed">
-      <p>&copy; 2015 Mike Vartanian</p>
-    </div><!-- /footer -->
-  </section><!-- End of Create Card Page -->
-
   <section data-role="page" id="login" data-theme="c">
     <div data-role="header" data-position="fixed">
       <nav data-role="navbar">
         <ul>
           <li class="tab"><a href="#home">Home</a></li>
           <li class="tab"><a href="#services">Services</a></li>
-          <li class="tab"><a href="#createcard">Create Card</a></li>
           <li class="tab"><a class="ui-btn-active ui-state-persist" href="#login">Login</a></li>
           <li class="tab"><a href="#register">Register</a></li>
           <li class="tab"><a href="#contact">Contact</a></li>
@@ -274,7 +206,6 @@
         <ul>
           <li class="tab"><a href="#home">Home</a></li>
           <li class="tab"><a href="#services">Services</a></li>
-          <li class="tab"><a href="#createcard">Create Card</a></li>
           <li class="tab"><a href="#login">Login</a></li>
           <li class="tab"><a class="ui-btn-active ui-state-persist" href="#register">Register</a></li>
           <li class="tab"><a href="#contact">Contact</a></li>
@@ -287,31 +218,32 @@
         <form id="register_id" method="post">
           <h3>Registration</h3>
           <h4>Please fill out the information below to register with my site...</h4>
-          <div class="form50">
-            <fieldset><input placeholder="First Name" id="firstname" name="firstname" type="text" tabindex="1" required autofocus><span class="error"></span></fieldset>
-            <fieldset><input placeholder="Last Name" id="lastname" name="lastname" type="text" tabindex="2" required><span class="error"></span></fieldset>
-            <fieldset><input placeholder="Street Address 1" id="streetaddr1" name="streetaddr1" type="text" tabindex="3" required><span class="error"></span></fieldset>
-            <fieldset><input placeholder="Street Address 2" id="streetaddr2" name="streetaddr2" type="text" tabindex="4"></fieldset>
-            <fieldset><input placeholder="City" id="city" name="city" type="text" tabindex="5" required><span class="error"></span></fieldset>
-            <fieldset><input placeholder="State/Province" id="state_prov" name="state_prov" type="text" tabindex="6" required><span class="error"></span></fieldset>
-            <fieldset><input placeholder="Zip Code / Postal Code" id="zip_post_code" name="zip_post_code" type="text" tabindex="7" required><span class="error"></span></fieldset>
-            <fieldset><input placeholder="Country" id="country" name="country" type="text" tabindex="8" required><span class="error"></span></fieldset>
-          </div>
-          <div class="form50">
-            <fieldset><input placeholder="Your Email Address (minimum of 5 characters)" id="emailaddr" name="emailaddr" type="email" tabindex="9" required><span class="error"></span></fieldset>
-            <fieldset><input placeholder="Confirm Email Address" id="confirmemailaddr" name="confirmemailaddr" type="email" tabindex="10" required><span class="error"></span></fieldset>
-            <fieldset><input placeholder="Your Phone Number" id="phonenumber" name="phonenumber" type="tel" tabindex="11" required><span class="error"></span></fieldset>
-            <fieldset><input placeholder="Your Web Site starts with http://" id="weburl" name="weburl" type="url" tabindex="12"></fieldset>
-            <fieldset><input placeholder="Desired Username" id="username" name="username" type="text" tabindex="13" required><span class="error"></span></fieldset>
-            <fieldset><input placeholder="Password" id="userpassword" name="userpassword" type="password" tabindex="14" required><span class="error"></span></fieldset>
-            <fieldset><input placeholder="Confirm Password" id="confirmuserpassword" name="confirmuserpassword" type="password" tabindex="15" required><span class="error"></span></fieldset>
+          <div class="ui-grid-a">
+            <div class="ui-block-a">
+              <fieldset><input placeholder="First Name" id="firstname" name="firstname" type="text" tabindex="1" required autofocus><span class="error"></span></fieldset>
+              <fieldset><input placeholder="Last Name" id="lastname" name="lastname" type="text" tabindex="2" required><span class="error"></span></fieldset>
+              <fieldset><input placeholder="Street Address 1" id="streetaddr1" name="streetaddr1" type="text" tabindex="3" required><span class="error"></span></fieldset>
+              <fieldset><input placeholder="Street Address 2" id="streetaddr2" name="streetaddr2" type="text" tabindex="4"></fieldset>
+              <fieldset><input placeholder="City" id="city" name="city" type="text" tabindex="5" required><span class="error"></span></fieldset>
+              <fieldset><input placeholder="State/Province" id="state_prov" name="state_prov" type="text" tabindex="6" required><span class="error"></span></fieldset>
+              <fieldset><input placeholder="Zip Code / Postal Code" id="zip_post_code" name="zip_post_code" type="text" tabindex="7" required><span class="error"></span></fieldset>
+              <fieldset><input placeholder="Country" id="country" name="country" type="text" tabindex="8" required><span class="error"></span></fieldset>
+            </div>
+            <div class="ui-block-b">
+              <fieldset><input placeholder="Your Email Address (minimum of 5 characters)" id="emailaddr" name="emailaddr" type="email" tabindex="9" required><span class="error"></span></fieldset>
+              <fieldset><input placeholder="Confirm Email Address" id="confirmemailaddr" name="confirmemailaddr" type="email" tabindex="10" required><span class="error"></span></fieldset>
+              <fieldset><input placeholder="Your Phone Number" id="phonenumber" name="phonenumber" type="tel" tabindex="11" required><span class="error"></span></fieldset>
+              <fieldset><input placeholder="Your Web Site starts with http://" id="weburl" name="weburl" type="url" tabindex="12"></fieldset>
+              <fieldset><input placeholder="Desired Username" id="username" name="username" type="text" tabindex="13" required><span class="error"></span></fieldset>
+              <fieldset><input placeholder="Password" id="userpassword" name="userpassword" type="password" tabindex="14" required><span class="error"></span></fieldset>
+              <fieldset><input placeholder="Confirm Password" id="confirmuserpassword" name="confirmuserpassword" type="password" tabindex="15" required><span class="error"></span></fieldset>
+            </div>
           </div>
           <fieldset>
             <button name="submit" type="submit" id="register-submit" data-submit="...Sending">Submit</button>
           </fieldset>
         </form>
       </div>
-
     </main>
     <div data-role="footer" data-position="fixed">
       <p>&copy; 2015 Mike Vartanian</p>
@@ -324,7 +256,6 @@
         <ul>
           <li class="tab"><a href="#home">Home</a></li>
           <li class="tab"><a href="#services">Services</a></li>
-          <li class="tab"><a href="#createcard">Create Card</a></li>
           <li class="tab"><a href="#login">Login</a></li>
           <li class="tab"><a href="#register">Register</a></li>
           <li class="tab"><a class="ui-btn-active ui-state-persist" href="#contact">Contact</a></li>
