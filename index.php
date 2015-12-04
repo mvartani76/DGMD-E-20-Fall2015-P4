@@ -12,7 +12,7 @@
 
 </head>
 <body>
-  <div data-role="page" id="home">
+  <section data-role="page" id="home">
     <div data-role="header" data-position="fixed">
       <div data-role="navbar">
         <ul>
@@ -81,9 +81,9 @@
     <div data-role="footer" data-theme="a">
       <h4>Page Footer</h4>
     </div><!-- /footer -->
-  </div><!-- End of Home Page -->
+  </section><!-- End of Home Page -->
   
-  <div data-role="page" id="services">
+  <section data-role="page" id="services">
     <div data-role="header" data-position="fixed">
       <div data-role="navbar">
           <ul>
@@ -169,9 +169,9 @@
     <div data-role="footer" data-theme="a">
       <h4>Page Footer</h4>
     </div><!-- /footer -->
-  </div><!-- End of Services Page -->
+  </section><!-- End of Services Page -->
 
-  <div data-role="page" id="createcard">
+  <section data-role="page" id="createcard">
     <div data-role="header" data-position="fixed">
       <div data-role="navbar">
         <ul>
@@ -186,57 +186,55 @@
     </div>
     <div role="main" class="ui-content">
 
-  <div class="createcardcontainer">  
-    <form id="createcard_id" method="post">
-      <h3>Create Your Card</h3>
-        <h4>Please enter the following information to design your custom credit card...</h4>
-        <fieldset>
-          <select id="card_image">
-            <option value="" disabled selected>Select your Background Image</option>
-            <option value="nature">Nature</option>
-            <option value="sports">Sports</option>
-            <option value="automotive">Automotive</option>
-            <option value="skyline">City Skyline</option>
-          </select>
-        </fieldset>
-        <fieldset><input placeholder="First Name" id="card_firstname" name="firstname" type="text" required></fieldset>
-        <fieldset><input placeholder="Last Name" id="card_lastname" name="lastname" type="text" required></fieldset>
-        <fieldset>
-          <label>Bank Logo Color (Red) </label>
-          <input type="range" min="0" max="255" name="scale" id="card_image_rgb_red">
-        </fieldset>
-        <fieldset>
-          <label>Bank Logo Color (Green) </label>
-          <input type="range" min="0" max="255" name="scale" id="card_image_rgb_green">
-        </fieldset>
-        <fieldset>
-          <label>Bank Logo Color (Blue) </label>
-          <input type="range" min="0" max="255" name="scale" id="card_image_rgb_blue">
-        </fieldset>        
-        <fieldset>
-          <button type="submit" id="createcard_id-create">Create Card</button>
-        </fieldset>
-        <fieldset>
-          <button type="submit" id="createcard_id-clear">Clear Card</button>
-        </fieldset>
-      </form>
-  </div>
+      <div class="createcardcontainer">  
+        <form id="createcard_id" method="post">
+          <h3>Create Your Card</h3>
+            <h4>Please enter the following information to design your custom credit card...</h4>
+            <fieldset>
+              <select id="card_image">
+                <option value="" disabled selected>Select your Background Image</option>
+                <option value="nature">Nature</option>
+                <option value="sports">Sports</option>
+                <option value="automotive">Automotive</option>
+                <option value="skyline">City Skyline</option>
+              </select>
+            </fieldset>
+            <fieldset><input placeholder="First Name" id="card_firstname" name="firstname" type="text" required></fieldset>
+            <fieldset><input placeholder="Last Name" id="card_lastname" name="lastname" type="text" required></fieldset>
+            <fieldset>
+              <label>Bank Logo Color (Red) </label>
+              <input type="range" min="0" max="255" name="scale" id="card_image_rgb_red">
+            </fieldset>
+            <fieldset>
+              <label>Bank Logo Color (Green) </label>
+              <input type="range" min="0" max="255" name="scale" id="card_image_rgb_green">
+            </fieldset>
+            <fieldset>
+              <label>Bank Logo Color (Blue) </label>
+              <input type="range" min="0" max="255" name="scale" id="card_image_rgb_blue">
+            </fieldset>        
+            <fieldset>
+              <button type="submit" id="createcard_id-create">Create Card</button>
+            </fieldset>
+            <fieldset>
+              <button type="submit" id="createcard_id-clear">Clear Card</button>
+            </fieldset>
+          </form>
+      </div>
 
-  <div class="canvascontainer">
-    <canvas id="canvas1"></canvas>
-    <canvas id="canvas2"></canvas>
-    <canvas id="canvas3"></canvas>
-    <canvas id="canvas4"></canvas>
-  </div>
-
-
+      <div class="canvascontainer">
+        <canvas id="canvas1"></canvas>
+        <canvas id="canvas2"></canvas>
+        <canvas id="canvas3"></canvas>
+        <canvas id="canvas4"></canvas>
+      </div>
     </div>
     <div data-role="footer" data-theme="a">
       <h4>Page Footer</h4>
     </div><!-- /footer -->
-  </div><!-- End of Create Card Page -->
+  </section><!-- End of Create Card Page -->
 
-  <div data-role="page" id="login">
+  <section data-role="page" id="login">
     <div data-role="header" data-position="fixed">
       <div data-role="navbar">
         <ul>
@@ -251,26 +249,24 @@
     </div>
     <div role="main" class="ui-content">
     
-  <div class="logincontainer">  
-    <form id="login_id" method="post">
-      <h3>Login</h3>
-        <h4>Please enter your username and password to login...</h4>
-        <fieldset><input placeholder="Username" id="login_username" name="username" type="text" tabindex="1" required autofocus></fieldset>
-        <fieldset><input placeholder="Password" id="login_userpassword" name="userpassword" type="password" tabindex="2" required></fieldset>
-        <fieldset>
-          <button name="submit" type="submit" id="login_id-submit" data-submit="...Sending">Submit</button>
-        </fieldset>
-      </form>
-  </div>
-
-
+      <div class="logincontainer">  
+        <form id="login_id" method="post">
+          <h3>Login</h3>
+            <h4>Please enter your username and password to login...</h4>
+            <fieldset><input placeholder="Username" id="login_username" name="username" type="text" tabindex="1" required autofocus></fieldset>
+            <fieldset><input placeholder="Password" id="login_userpassword" name="userpassword" type="password" tabindex="2" required></fieldset>
+            <fieldset>
+              <button name="submit" type="submit" id="login_id-submit" data-submit="...Sending">Submit</button>
+            </fieldset>
+          </form>
+      </div>
     </div>
     <div data-role="footer" data-theme="a">
       <h4>Page Footer</h4>
     </div><!-- /footer -->
-  </div><!-- End of Login Page -->
+  </section><!-- End of Login Page -->
   
-  <div data-role="page" id="register">
+  <section data-role="page" id="register">
     <div data-role="header" data-position="fixed">
       <div data-role="navbar">
         <ul>
@@ -285,44 +281,42 @@
     </div>
 
     <div role="main" class="ui-content">
-
-<div class="registercontainer">  
-  <form id="register_id" method="post">
-    <h3>Registration</h3>
-    <h4>Please fill out the information below to register with my site...</h4>
-    <div class="form50">
-      <fieldset><input placeholder="First Name" id="firstname" name="firstname" type="text" tabindex="1" required autofocus><span class="error"></span></fieldset>
-      <fieldset><input placeholder="Last Name" id="lastname" name="lastname" type="text" tabindex="2" required><span class="error"></span></fieldset>
-      <fieldset><input placeholder="Street Address 1" id="streetaddr1" name="streetaddr1" type="text" tabindex="3" required><span class="error"></span></fieldset>
-      <fieldset><input placeholder="Street Address 2" id="streetaddr2" name="streetaddr2" type="text" tabindex="4"></fieldset>
-      <fieldset><input placeholder="City" id="city" name="city" type="text" tabindex="5" required><span class="error"></span></fieldset>
-      <fieldset><input placeholder="State/Province" id="state_prov" name="state_prov" type="text" tabindex="6" required><span class="error"></span></fieldset>
-      <fieldset><input placeholder="Zip Code / Postal Code" id="zip_post_code" name="zip_post_code" type="text" tabindex="7" required><span class="error"></span></fieldset>
-      <fieldset><input placeholder="Country" id="country" name="country" type="text" tabindex="8" required><span class="error"></span></fieldset>
-    </div>
-    <div class="form50">
-      <fieldset><input placeholder="Your Email Address (minimum of 5 characters)" id="emailaddr" name="emailaddr" type="email" tabindex="9" required><span class="error"></span></fieldset>
-      <fieldset><input placeholder="Confirm Email Address" id="confirmemailaddr" name="confirmemailaddr" type="email" tabindex="10" required><span class="error"></span></fieldset>
-      <fieldset><input placeholder="Your Phone Number" id="phonenumber" name="phonenumber" type="tel" tabindex="11" required><span class="error"></span></fieldset>
-      <fieldset><input placeholder="Your Web Site starts with http://" id="weburl" name="weburl" type="url" tabindex="12"></fieldset>
-      <fieldset><input placeholder="Desired Username" id="username" name="username" type="text" tabindex="13" required><span class="error"></span></fieldset>
-      <fieldset><input placeholder="Password" id="userpassword" name="userpassword" type="password" tabindex="14" required><span class="error"></span></fieldset>
-      <fieldset><input placeholder="Confirm Password" id="confirmuserpassword" name="confirmuserpassword" type="password" tabindex="15" required><span class="error"></span></fieldset>
-    </div>
-    <fieldset>
-      <button name="submit" type="submit" id="register-submit" data-submit="...Sending">Submit</button>
-    </fieldset>
-  </form>
-
-</div>
+      <div class="registercontainer">  
+        <form id="register_id" method="post">
+          <h3>Registration</h3>
+          <h4>Please fill out the information below to register with my site...</h4>
+          <div class="form50">
+            <fieldset><input placeholder="First Name" id="firstname" name="firstname" type="text" tabindex="1" required autofocus><span class="error"></span></fieldset>
+            <fieldset><input placeholder="Last Name" id="lastname" name="lastname" type="text" tabindex="2" required><span class="error"></span></fieldset>
+            <fieldset><input placeholder="Street Address 1" id="streetaddr1" name="streetaddr1" type="text" tabindex="3" required><span class="error"></span></fieldset>
+            <fieldset><input placeholder="Street Address 2" id="streetaddr2" name="streetaddr2" type="text" tabindex="4"></fieldset>
+            <fieldset><input placeholder="City" id="city" name="city" type="text" tabindex="5" required><span class="error"></span></fieldset>
+            <fieldset><input placeholder="State/Province" id="state_prov" name="state_prov" type="text" tabindex="6" required><span class="error"></span></fieldset>
+            <fieldset><input placeholder="Zip Code / Postal Code" id="zip_post_code" name="zip_post_code" type="text" tabindex="7" required><span class="error"></span></fieldset>
+            <fieldset><input placeholder="Country" id="country" name="country" type="text" tabindex="8" required><span class="error"></span></fieldset>
+          </div>
+          <div class="form50">
+            <fieldset><input placeholder="Your Email Address (minimum of 5 characters)" id="emailaddr" name="emailaddr" type="email" tabindex="9" required><span class="error"></span></fieldset>
+            <fieldset><input placeholder="Confirm Email Address" id="confirmemailaddr" name="confirmemailaddr" type="email" tabindex="10" required><span class="error"></span></fieldset>
+            <fieldset><input placeholder="Your Phone Number" id="phonenumber" name="phonenumber" type="tel" tabindex="11" required><span class="error"></span></fieldset>
+            <fieldset><input placeholder="Your Web Site starts with http://" id="weburl" name="weburl" type="url" tabindex="12"></fieldset>
+            <fieldset><input placeholder="Desired Username" id="username" name="username" type="text" tabindex="13" required><span class="error"></span></fieldset>
+            <fieldset><input placeholder="Password" id="userpassword" name="userpassword" type="password" tabindex="14" required><span class="error"></span></fieldset>
+            <fieldset><input placeholder="Confirm Password" id="confirmuserpassword" name="confirmuserpassword" type="password" tabindex="15" required><span class="error"></span></fieldset>
+          </div>
+          <fieldset>
+            <button name="submit" type="submit" id="register-submit" data-submit="...Sending">Submit</button>
+          </fieldset>
+        </form>
+      </div>
 
     </div>
     <div data-role="footer" data-theme="a">
       <h4>Page Footer</h4>
     </div><!-- /footer -->
-  </div><!-- End of Register Page -->
+  </section><!-- End of Register Page -->
 
-  <div data-role="page" id="contact">
+  <section data-role="page" id="contact">
     <div data-role="header" data-position="fixed">
       <div data-role="navbar">
         <ul>
@@ -337,59 +331,55 @@
     </div>
 
     <div role="main" class="ui-content">
+      <div class="contactcontainer">  
+        <form id="contact_id" method="post">
+          <h3>Quick Contact</h3>
+          <h4>Contact us today, and get reply with in 24 hours!</h4>
+          <div class="ui-field-contain">
+            <input placeholder="First Name" id="firstname" name="firstname" type="text" tabindex="1" required autofocus>
+            <input placeholder="Last Name" id="lastname" name="lastname" type="text" tabindex="2" required>
+            <input placeholder="Your Email Address" id="emailaddr" name="emailaddr" type="email" tabindex="3">
+            <input placeholder="Your Phone Number" id="phonenumber" name="phonenumber" type="tel" tabindex="4">
+            <input placeholder="Your Web Site starts with http://" id="weburl" name="weburl" type="url" tabindex="5">
+          </div>
+          <fieldset data-role="controlgroup" data-type="horizontal">
+            <h4>What type of message do you want to send?</h4>
+              <input type="radio" id="dept1" name="dept" value="general" tabindex="6" checked>
+              <label for="dept1">General</label>
+              <input type="radio" id="dept2" name="dept" value="sales" tabindex="7">
+              <label for="dept2">Sales</label>
+              <input type="radio" id="dept3" name="dept" value="marketing" tabindex="8">
+              <label for="dept3">Marketing</label>
+              <input type="radio" id="dept4" name="dept" value="technical" tabindex="9">
+              <label for="dept4">Technical</label>
+          </fieldset>
 
-<div class="contactcontainer">  
-  <form id="contact_id" method="post">
-    <h3>Quick Contact</h3>
-    <h4>Contact us today, and get reply with in 24 hours!</h4>
-    <div class="ui-field-contain">
-      <input placeholder="First Name" id="firstname" name="firstname" type="text" tabindex="1" required autofocus>
-      <input placeholder="Last Name" id="lastname" name="lastname" type="text" tabindex="2" required>
-      <input placeholder="Your Email Address" id="emailaddr" name="emailaddr" type="email" tabindex="3">
-      <input placeholder="Your Phone Number" id="phonenumber" name="phonenumber" type="tel" tabindex="4">
-      <input placeholder="Your Web Site starts with http://" id="weburl" name="weburl" type="url" tabindex="5">
-    </div>
-  <fieldset data-role="controlgroup" data-type="horizontal">
-    <h4>What type of message do you want to send?</h4>
-      <input type="radio" id="dept1" name="dept" value="general" tabindex="6" checked>
-      <label for="dept1">General</label>
-      <input type="radio" id="dept2" name="dept" value="sales" tabindex="7">
-      <label for="dept2">Sales</label>
-      <input type="radio" id="dept3" name="dept" value="marketing" tabindex="8">
-      <label for="dept3">Marketing</label>
-      <input type="radio" id="dept4" name="dept" value="technical" tabindex="9">
-      <label for="dept4">Technical</label>
-  </fieldset>
-
-
-    <div class="ui-field-contain">
-      <textarea placeholder="Type your Message Here...." tabindex="10" required></textarea>
-    </div>
-    <h4 class="centerh4">Preferred time for phone contact...</h4>
-    <div class="form50">
-      <fieldset>
-        <label for="start_time">Start Time</label>
-        <input id="start_time" name="start_time" type="time" tabindex="11" value="00:00">
-      </fieldset>
-    </div>
-    <div class="form50">
-      <fieldset>
-        <label for="end_time">End Time</label>
-        <input id="end_time" name="end_time" type="time" tabindex="12" value="23:59">
-      </fieldset>
-    </div>
-    <fieldset>
-      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
-    </fieldset>
-  </form>
-
-</div>
-
+          <div class="ui-field-contain">
+            <textarea placeholder="Type your Message Here...." tabindex="10" required></textarea>
+          </div>
+          <h4 class="centerh4">Preferred time for phone contact...</h4>
+          <div class="form50">
+            <fieldset>
+              <label for="start_time">Start Time</label>
+              <input id="start_time" name="start_time" type="time" tabindex="11" value="00:00">
+            </fieldset>
+          </div>
+          <div class="form50">
+            <fieldset>
+              <label for="end_time">End Time</label>
+              <input id="end_time" name="end_time" type="time" tabindex="12" value="23:59">
+            </fieldset>
+          </div>
+          <fieldset>
+            <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+          </fieldset>
+        </form>
+      </div>
     </div>
     <div data-role="footer" data-theme="a">
       <h4>Page Footer</h4>
     </div><!-- /footer -->
-  </div><!-- End of Contact Page -->
+  </section><!-- End of Contact Page -->
 
     <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
     <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
