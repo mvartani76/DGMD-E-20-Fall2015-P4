@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
   <link href="./css/menu.css" rel="stylesheet">
   <link href="./css/services.css" rel="stylesheet">
-  <link href="./css/imagestyle.css" rel="stylesheet">  
+  <link href="./css/imagestyle.css" rel="stylesheet">
   <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
 </head>
@@ -81,7 +81,7 @@
     </main>
 
     <div data-role="footer" data-position="fixed">
-      <p>Page Footer</p>
+      <p>&copy; 2015 Mike Vartanian</p>
     </div><!-- /footer -->
   </section><!-- End of Home Page -->
   
@@ -169,7 +169,7 @@
 
     </main>
     <div data-role="footer" data-position="fixed">
-      <p>Page Footer</p>
+      <p>&copy; 2015 Mike Vartanian</p>
     </div><!-- /footer -->
   </section><!-- End of Services Page -->
 
@@ -232,7 +232,7 @@
       </div>
     </main>
     <div data-role="footer" data-position="fixed">
-      <p>Page Footer</p>
+      <p>&copy; 2015 Mike Vartanian</p>
     </div><!-- /footer -->
   </section><!-- End of Create Card Page -->
 
@@ -264,7 +264,7 @@
       </div>
     </main>
     <div data-role="footer" data-position="fixed">
-      <p>Page Footer</p>
+      <p>&copy; 2015 Mike Vartanian</p>
     </div><!-- /footer -->
   </section><!-- End of Login Page -->
   
@@ -314,7 +314,7 @@
 
     </main>
     <div data-role="footer" data-position="fixed">
-      <p>Page Footer</p>
+      <p>&copy; 2015 Mike Vartanian</p>
     </div><!-- /footer -->
   </section><!-- End of Register Page -->
 
@@ -337,14 +337,14 @@
         <form id="contact_id" method="post">
           <h3>Quick Contact</h3>
           <h4>Contact us today, and get reply with in 24 hours!</h4>
-          <div class="ui-field-contain">
+          <fieldset>
             <input placeholder="First Name" id="firstname" name="firstname" type="text" tabindex="1" required autofocus>
             <input placeholder="Last Name" id="lastname" name="lastname" type="text" tabindex="2" required>
             <input placeholder="Your Email Address" id="emailaddr" name="emailaddr" type="email" tabindex="3">
             <input placeholder="Your Phone Number" id="phonenumber" name="phonenumber" type="tel" tabindex="4">
             <input placeholder="Your Web Site starts with http://" id="weburl" name="weburl" type="url" tabindex="5">
-          </div>
-          <fieldset data-role="controlgroup" data-type="horizontal">
+          </fieldset>
+          <fieldset data-role="controlgroup" data-type="horizontal" data-mini="true">
             <h4>What type of message do you want to send?</h4>
               <input type="radio" id="dept1" name="dept" value="general" tabindex="6" checked>
               <label for="dept1">General</label>
@@ -356,9 +356,9 @@
               <label for="dept4">Technical</label>
           </fieldset>
 
-          <div class="ui-field-contain">
+          <fieldset>
             <textarea placeholder="Type your Message Here...." tabindex="10" required></textarea>
-          </div>
+          </fieldset>
           <h4 class="centerh4">Preferred time for phone contact...</h4>
           <div class="form50">
             <fieldset>
@@ -373,13 +373,14 @@
             </fieldset>
           </div>
           <fieldset>
-            <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+            <button name="submit" type="submit" id="contact-submit" data-submit="...Sending" class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-star ui-btn-inline">Submit</button>
           </fieldset>
         </form>
       </div>
     </main>
+
     <div data-role="footer" data-position="fixed">
-      <p>Page Footer</p>
+      <p>&copy; 2015 Mike Vartanian</p>
     </div><!-- /footer -->
   </section><!-- End of Contact Page -->
 
