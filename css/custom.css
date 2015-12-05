@@ -8,13 +8,29 @@
 	text-align: center;
 }
 
+#radio_msg {
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 1%;
+}
+
 #services .ui-block-a,
-#services .ui-block-b {
+#services .ui-block-b,
+#services .ui-block-c {
 	padding-left: 1%;
 	padding-right: 1%;
+	text-align: center;
 	background-color: #424242;
 }
 
+.float-right {
+    float: right;
+    vertical-align: middle;
+}
+.float-left {
+    float: left;
+    vertical-align: middle;
+}
 
 @media only all and (min-width: 768px) {
 	.contactcontainer, .logincontainer, .registercontainer {
