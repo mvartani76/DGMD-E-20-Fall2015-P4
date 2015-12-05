@@ -1,0 +1,42 @@
+
+.contactcontainer, .logincontainer, .registercontainer {width: 100%;}
+
+.logincontainer h3,
+.logincontainer h4,
+.contactcontainer h3,
+.contactcontainer h4 {
+	text-align: center;
+}
+
+#services .ui-block-a,
+#services .ui-block-b {
+	padding-left: 1%;
+	padding-right: 1%;
+	background-color: #424242;
+}
+
+
+@media only all and (min-width: 768px) {
+	.contactcontainer, .logincontainer, .registercontainer {
+		background-color: #6E6E6E;
+		margin: 0 auto;
+		padding-left: 2%;
+		padding-right: 2%;
+		padding-top: 1%;
+		padding-bottom: 1%;}
+
+	.contactcontainer, .logincontainer {
+		width: 50%;
+	}
+
+	.registercontainer {
+		width: 75%;
+	}
+
+	.registercontainer .ui-block-a,
+	.registercontainer .ui-block-b
+	 {
+		padding-left: 1%;
+		padding-right: 1%;
+	}
+}

@@ -7,7 +7,8 @@
   <link rel="stylesheet" href="themes/cool-slate.min.css" />
   <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
   <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
-
+  <link rel="stylesheet" href="css/custom.css">
+  <link rel="stylesheet" href="css/imagestyle.css">
   <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
 </head>
@@ -183,7 +184,7 @@
     </div>
     <main data-role="main" class="ui-content">
     
-      <div class="logincontainer">  
+      <div class="logincontainer ui-corner-all">  
         <form id="login_id" method="post">
           <h3>Login</h3>
             <h4>Please enter your username and password to login...</h4>
@@ -214,7 +215,7 @@
     </div>
 
     <main data-role="main" class="ui-content">
-      <div class="registercontainer">  
+      <div class="registercontainer ui-corner-all">  
         <form id="register_id" method="post">
           <h3>Registration</h3>
           <h4>Please fill out the information below to register with my site...</h4>
@@ -264,7 +265,7 @@
     </div>
 
     <main data-role="main" class="ui-content">
-      <div class="contactcontainer">  
+      <div class="contactcontainer ui-corner-all">  
         <form id="contact_id" method="post">
           <h3>Quick Contact</h3>
           <h4>Contact us today, and get reply with in 24 hours!</h4>
@@ -275,7 +276,7 @@
             <input placeholder="Your Phone Number" id="phonenumber" name="phonenumber" type="tel" tabindex="4">
             <input placeholder="Your Web Site starts with http://" id="weburl" name="weburl" type="url" tabindex="5">
           </fieldset>
-          <fieldset data-role="controlgroup" data-type="horizontal" data-mini="true">
+          <fieldset id="radio_msg" data-role="controlgroup" data-type="horizontal">
             <h4>What type of message do you want to send?</h4>
               <input type="radio" id="dept1" name="dept" value="general" tabindex="6" checked>
               <label for="dept1">General</label>
@@ -290,21 +291,24 @@
           <fieldset>
             <textarea placeholder="Type your Message Here...." tabindex="10" required></textarea>
           </fieldset>
-          <h4 class="centerh4">Preferred time for phone contact...</h4>
-          <div class="form50">
-            <fieldset>
-              <label for="start_time">Start Time</label>
-              <input id="start_time" name="start_time" type="time" tabindex="11" value="00:00">
-            </fieldset>
-          </div>
-          <div class="form50">
-            <fieldset>
-              <label for="end_time">End Time</label>
-              <input id="end_time" name="end_time" type="time" tabindex="12" value="23:59">
-            </fieldset>
+          <h4>Preferred time for phone contact...</h4>
+          <div class="ui-grid-a">
+            <div class="ui-block-a">
+              <fieldset>
+                <label for="start_time">Start Time</label>
+                <input id="start_time" name="start_time" type="time" tabindex="11" value="00:00">
+              </fieldset>
+            </div>
+            <div class="ui-block-b">
+              <fieldset>
+                <label for="end_time">End Time</label>
+                <input id="end_time" name="end_time" type="time" tabindex="12" value="23:59">
+              </fieldset>
+            </div>
           </div>
           <fieldset>
-            <button name="submit" type="submit" id="contact-submit" data-submit="...Sending" class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-star ui-btn-inline">Submit</button>
+            <button name="submit" type="submit" id="contact-submit" data-submit="...Sending" 
+            class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-star">Submit</button>
           </fieldset>
         </form>
       </div>
