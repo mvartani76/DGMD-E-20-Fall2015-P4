@@ -9,6 +9,9 @@
   <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
   <link rel="stylesheet" href="css/custom.css">
   <link rel="stylesheet" href="css/imagestyle.css">
+  <link rel="prefetch" href="images/mobile_internet1.jpg">
+  <link rel="prefetch" href="images/mobile_internet2.jpg">
+  <link rel="prefetch" href="images/mobile_internet3.jpg">
   <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
 </head>
@@ -133,7 +136,7 @@
           <div class="mobileexamplefunctionality">
             <h3>Mobile App Example Functionality</h3>
             <h4>Orientation Example...</h4>
-            <span id="orientation">Orientation Change Not Supported on this device<span>
+            <div id="orientation">Orientation Change Not Supported on this device</div>
             <h4>Swipe Examples...</h4>
             <div id="mobileinternetswipe" class="start"></div>
             <h4>Tap/Hold Examples...</h4>
