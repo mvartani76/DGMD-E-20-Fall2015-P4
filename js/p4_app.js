@@ -306,6 +306,16 @@ $(document).ready(function(){
 	// gets the orientation and displays it to on screen.
 	$( window ).on( "orientationchange", function( event ) {
   	$( "#orientation" ).text( "This device is in " + event.orientation + " mode!" );
+
+	$('main').bind('swipeleft', function(event){
+		$('#mobileinternetswipe').removeClass().addClass('mobileinternet-one');
+	}); //end swipe left
+
+	$('main').bind('swiperight', function(event){
+		$('#mobileinternetswipe').removeClass().addClass('mobileinternet-two');
+	}); //end swipe right
+
+
 });
 
 

@@ -131,8 +131,12 @@
           <p>Let me show you how I can help convert
           those visitors to buyers at a fraction of the price!</p>
           <div class="mobileexamplefunctionality">
-            <h2>Mobile App Example Functionality</h2>
+            <h3>Mobile App Example Functionality</h3>
+            <h4>Orientation Example...</h4>
             <span id="orientation">Orientation Change Not Supported on this device<span>
+            <h4>Swipe Examples...</h4>
+            <div id="mobileinternetswipe" class="start"></div>
+            <h4>Tap/Hold Examples...</h4>
           </div>
         </div>
       </div> <!-- End ui-block-a -->

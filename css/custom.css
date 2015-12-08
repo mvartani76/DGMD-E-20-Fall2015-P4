@@ -32,6 +32,18 @@
 	background-color: #353E57;
 }
 
+
+.mobileinternet-one {
+	background-image: url(../images/mobile_internet1.jpg);
+}
+.mobileinternet-two {
+	background-image: url(../images/mobile_internet2.jpg);
+}
+.mobileinternet-three {
+	background-image: url(../images/mobile_internet3.jpg);
+}
+
+
 @media only all and (min-width: 768px) {
 	.contactcontainer, .logincontainer, .registercontainer {
 		background-color: #6E6E6E;
