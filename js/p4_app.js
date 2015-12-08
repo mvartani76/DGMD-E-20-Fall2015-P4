@@ -297,15 +297,6 @@ $(document).ready(function(){
 	// End of Part 1 if/else form validation
 
 	$('.paperondeskpic').fadeOut(5000).fadeIn(5000);
-	
-	// Animate Effect for "My Services" in services.php
-	$('.servicestitle').animate({
-		left: '70%',
-		fontSize: '+=2em',}, 3000);
-	$('.servicestitle').animate({
-		left: '0%',
-		fontSize: '-=2em',}, 3000);
-	// End of Animate Effect
 
 	// FadeIn effect used in login.php
 	$('.logincontainer').hide();
