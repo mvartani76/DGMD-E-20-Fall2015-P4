@@ -20,7 +20,7 @@
     <header data-role="header" data-position="fixed">
       <nav data-role="navbar">
         <ul>
-          <li><a class="ui-btn ui-icon-cloud ui-btn-icon-bottom ui-btn-active ui-state-persist" href="#home">Home</a></li>
+          <li><a class="ui-btn ui-icon-home ui-btn-icon-bottom ui-btn-active ui-state-persist" href="#home">Home</a></li>
           <li><a class="ui-btn ui-icon-cloud ui-btn-icon-bottom" href="#services">Services</a></li>
           <li><a class="ui-btn ui-icon-user ui-btn-icon-bottom" href="#login">Login</a></li>
           <li><a class="ui-btn ui-icon-grid ui-btn-icon-bottom" href="#register">Register</a></li>
@@ -96,7 +96,7 @@
     <header data-role="header" data-position="fixed">
       <nav data-role="navbar">
         <ul>
-          <li><a class="ui-btn ui-icon-cloud ui-btn-icon-bottom" href="#home">Home</a></li>
+          <li><a class="ui-btn ui-icon-home ui-btn-icon-bottom" href="#home">Home</a></li>
           <li><a class="ui-btn ui-icon-cloud ui-btn-icon-bottom ui-btn-active ui-state-persist" href="#services">Services</a></li>
           <li><a class="ui-btn ui-icon-user ui-btn-icon-bottom" href="#login">Login</a></li>
           <li><a class="ui-btn ui-icon-grid ui-btn-icon-bottom" href="#register">Register</a></li>
@@ -195,7 +195,7 @@
     <div data-role="header" data-position="fixed">
       <nav data-role="navbar">
         <ul>
-          <li><a class="ui-btn ui-icon-cloud ui-btn-icon-bottom" href="#home">Home</a></li>
+          <li><a class="ui-btn ui-icon-home ui-btn-icon-bottom" href="#home">Home</a></li>
           <li><a class="ui-btn ui-icon-cloud ui-btn-icon-bottom" href="#services">Services</a></li>
           <li><a class="ui-btn ui-icon-user ui-btn-icon-bottom ui-btn-active ui-state-persist" href="#login">Login</a></li>
           <li><a class="ui-btn ui-icon-grid ui-btn-icon-bottom" href="#register">Register</a></li>
@@ -232,7 +232,7 @@
     <div data-role="header" data-position="fixed">
       <nav data-role="navbar">
         <ul>
-          <li><a class="ui-btn ui-icon-cloud ui-btn-icon-bottom" href="#home">Home</a></li>
+          <li><a class="ui-btn ui-icon-home ui-btn-icon-bottom" href="#home">Home</a></li>
           <li><a class="ui-btn ui-icon-cloud ui-btn-icon-bottom" href="#services">Services</a></li>
           <li><a class="ui-btn ui-icon-user ui-btn-icon-bottom" href="#login">Login</a></li>
           <li><a class="ui-btn ui-icon-grid ui-btn-icon-bottom ui-btn-active ui-state-persist" href="#register">Register</a></li>
@@ -288,7 +288,7 @@
     <div data-role="header" data-position="fixed">
       <nav data-role="navbar">
         <ul>
-          <li><a class="ui-btn ui-icon-cloud ui-btn-icon-bottom" href="#home">Home</a></li>
+          <li><a class="ui-btn ui-icon-home ui-btn-icon-bottom" href="#home">Home</a></li>
           <li><a class="ui-btn ui-icon-cloud ui-btn-icon-bottom" href="#services">Services</a></li>
           <li><a class="ui-btn ui-icon-user ui-btn-icon-bottom" href="#login">Login</a></li>
           <li><a class="ui-btn ui-icon-grid ui-btn-icon-bottom" href="#register">Register</a></li>
