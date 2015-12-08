@@ -1,32 +1,5 @@
 $(document).ready(function(){
 	console.log("Document Loaded");
-
-	// This is my Part 1 Click Effect Code Section -- this is demonstrated in services.php
-	
-	// Initially hide the additional mobile payment companies
-	$('#lesspaymentoptions').hide();
-
-	// When clicked, it will hide specific text, show other text, and show a different graphic
-    $('#morepaymentoptions').click(function(){
-        $('#morepaymentoptions').hide(); // hide the text
-        $('#lesspaymentoptions').show(); // show some additional text
-        // Change the picture to one that has more payment company logos
-        $('.mobilepaylogospic').attr({
-			'src': './images/mobile-payment-logos-expanded.png'
-		});
-    }); // End Click Effect that changes text and shows a different graphic
-
-    // When clicked, it will revert back to the original text and graphic
-    $('#lesspaymentoptions').click(function(){
-    	$('#lesspaymentoptions').hide(); // hide the additional text
-        $('#morepaymentoptions').show(); // Re-show the original text
-
-        // Revert back to the original picture when the user clicks on less
-        $('.mobilepaylogospic').attr({
-			'src': './images/mobile-payment-logos.png'
-		});
-    }); // End Click Effect that reverts back to original text and graphic
-    // End of Part 1 Click Effect Code Section
          
 	// This is my Part 1 Hover Effect Code section - this is demonstrated in index.php
 	$('.womanaskingformoneypic').hover(function(){
@@ -306,7 +279,8 @@ $(document).ready(function(){
 	// gets the orientation and displays it to on screen.
 	$( window ).on( "orientationchange", function( event ) {
   	$( "#orientation" ).text( "This device is in " + event.orientation + " mode!" );
-
+	});
+	
 	$('#mobileinternetswipe').bind('swipeleft', function(event){
 		$('#mobileinternetswipe').removeClass().addClass('mobileinternet-one');
 	}); //end swipe left
@@ -314,9 +288,5 @@ $(document).ready(function(){
 	$('#mobileinternetswipe').bind('swiperight', function(event){
 		$('#mobileinternetswipe').removeClass().addClass('mobileinternet-two');
 	}); //end swipe right
-
-
-});
-
 
 }); // end ready
