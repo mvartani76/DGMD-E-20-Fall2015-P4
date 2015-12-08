@@ -17,6 +17,7 @@
 #services .ui-content .ui-block-a,
 #services .ui-content .ui-block-b,
 #services .ui-content .ui-block-c {
+	width: 100%;
 	padding-left: 1%;
 	padding-right: 1%;
 	text-align: center;
@@ -71,5 +72,11 @@
 	 {
 		padding-left: 1%;
 		padding-right: 1%;
+	}
+
+	#services .ui-content .ui-block-a,
+	#services .ui-content .ui-block-b,
+	#services .ui-content .ui-block-c {
+		width: 33.3333%;
 	}
 }
