@@ -302,4 +302,11 @@ $(document).ready(function(){
 	$('.logincontainer').hide();
 	$('.logincontainer').fadeIn(3000);
 	
+	// Bind an event to window.orientationchange that, when the device is turned,
+	// gets the orientation and displays it to on screen.
+	$( window ).on( "orientationchange", function( event ) {
+  	$( "#orientation" ).text( "This device is in " + event.orientation + " mode!" );
+});
+
+
 }); // end ready
