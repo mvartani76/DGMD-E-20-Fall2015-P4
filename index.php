@@ -2,7 +2,7 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Payment Tracking Home</title>
+  <title>Mike's Amateur Web Design</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="themes/cool-slate.min.css" />
   <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
@@ -137,9 +137,12 @@
             <h3>Mobile App Example Functionality</h3>
             <h4>Orientation Example...</h4>
             <div id="orientation">Orientation Change Not Supported on this device</div>
-            <h4>Swipe Examples...</h4>
+            <h4>Swipe Example</h4>
+            <p>Swipe left and right to display different images...</p>
             <div id="mobileinternetswipe" class="start"></div>
-            <h4>Tap/Hold Examples...</h4>
+            <h4>Tap/Hold Example</h4>
+            <p>Tap and hold box below to display an image...</p>
+            <div id="mobileinternettaphold" class="start"></div>
           </div>
         </div>
       </div> <!-- End ui-block-a -->

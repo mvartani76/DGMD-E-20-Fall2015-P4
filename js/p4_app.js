@@ -289,4 +289,8 @@ $(document).ready(function(){
 		$('#mobileinternetswipe').removeClass().addClass('mobileinternet-two');
 	}); //end swipe right
 
+	$('#mobileinternettaphold').bind('taphold', function(event){
+		$('#mobileinternettaphold').addClass('mobileinternet-three');
+	}); //end taphold
+
 }); // end ready

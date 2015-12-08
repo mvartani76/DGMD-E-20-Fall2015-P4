@@ -34,9 +34,27 @@
 }
 
 #mobileinternetswipe {
-	width: 100%;
-	height: 150px;
+	width: 98%;
+	margin: 0 auto;
+	height: 200px;
 	border: 2px solid red;
+}
+
+#orientation {
+	width: 98%;
+	margin: 0 auto;
+	height: 50px;
+	border: 2px solid green;
+	display: flex;
+	justify-content: center; /* align horizontal */
+	align-items: center; /* align vertical */
+}
+
+#mobileinternettaphold {
+	width: 98%;
+	margin: 0 auto;
+	height: 200px;
+	border: 2px solid blue;
 }
 
 .mobileinternet-one {
@@ -83,9 +101,15 @@
 		padding-right: 1%;
 	}
 
+	.servicestitle h1 {
+	
+		font-size: 48px;
+		font-family: 'Montserrat', sans-serif;
+	}
+
 	#services .ui-content .ui-block-a,
 	#services .ui-content .ui-block-b,
 	#services .ui-content .ui-block-c {
-		width: 33.3333%;
+		width: 33.33333%;
 	}
 }
