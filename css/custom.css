@@ -32,6 +32,9 @@
 	background-color: #353E57;
 }
 
+#mobileinternetswipe {
+	width: 100%;
+}
 
 .mobileinternet-one {
 	background-image: url(../images/mobile_internet1.jpg);
