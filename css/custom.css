@@ -27,9 +27,9 @@
     float: right;
     vertical-align: middle;
 }
-.float-left {
-    float: left;
-    vertical-align: middle;
+
+.mobileexamplefunctionality {
+	background-color: #353E57;
 }
 
 @media only all and (min-width: 768px) {

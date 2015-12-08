@@ -130,7 +130,10 @@
           <p>Soooo... We need to correct this... Stop paying too much for your website...</p>
           <p>Let me show you how I can help convert
           those visitors to buyers at a fraction of the price!</p>
-          <span id="orientation">Orientation Change Not Supported on this device<span>
+          <div class="mobileexamplefunctionality">
+            <h2>Mobile App Example Functionality</h2>
+            <span id="orientation">Orientation Change Not Supported on this device<span>
+          </div>
         </div>
       </div> <!-- End ui-block-a -->
       <div class="ui-block-b">
