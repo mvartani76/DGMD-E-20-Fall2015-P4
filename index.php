@@ -17,11 +17,11 @@
     <header data-role="header" data-position="fixed">
       <nav data-role="navbar">
         <ul>
-          <li class="tab"><a class="ui-btn ui-icon-cloud ui-btn-icon-bottom ui-btn-active ui-state-persist" href="#home">Home</a></li>
-          <li class="tab"><a class="ui-btn ui-icon-cloud ui-btn-icon-bottom" href="#services">Services</a></li>
-          <li class="tab"><a class="ui-btn ui-icon-user ui-btn-icon-bottom" href="#login">Login</a></li>
-          <li class="tab"><a class="ui-btn ui-icon-grid ui-btn-icon-bottom" href="#register">Register</a></li>
-          <li class="tab"><a class="ui-btn ui-icon-mail ui-btn-icon-bottom" href="#contact">Contact</a></li>
+          <li><a class="ui-btn ui-icon-cloud ui-btn-icon-bottom ui-btn-active ui-state-persist" href="#home">Home</a></li>
+          <li><a class="ui-btn ui-icon-cloud ui-btn-icon-bottom" href="#services">Services</a></li>
+          <li><a class="ui-btn ui-icon-user ui-btn-icon-bottom" href="#login">Login</a></li>
+          <li><a class="ui-btn ui-icon-grid ui-btn-icon-bottom" href="#register">Register</a></li>
+          <li><a class="ui-btn ui-icon-mail ui-btn-icon-bottom" href="#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
@@ -90,17 +90,17 @@
   </section><!-- End of Home Page -->
   
   <section data-role="page" id="services" data-theme="c">
-    <div data-role="header" data-position="fixed">
+    <header data-role="header" data-position="fixed">
       <nav data-role="navbar">
         <ul>
-          <li class="tab"><a class="ui-btn ui-icon-cloud ui-btn-icon-bottom" href="#home">Home</a></li>
-          <li class="tab"><a class="ui-btn ui-icon-cloud ui-btn-icon-bottom ui-btn-active ui-state-persist" href="#services">Services</a></li>
-          <li class="tab"><a class="ui-btn ui-icon-user ui-btn-icon-bottom" href="#login">Login</a></li>
-          <li class="tab"><a class="ui-btn ui-icon-grid ui-btn-icon-bottom" href="#register">Register</a></li>
-          <li class="tab"><a class="ui-btn ui-icon-mail ui-btn-icon-bottom" href="#contact">Contact</a></li>
+          <li><a class="ui-btn ui-icon-cloud ui-btn-icon-bottom" href="#home">Home</a></li>
+          <li><a class="ui-btn ui-icon-cloud ui-btn-icon-bottom ui-btn-active ui-state-persist" href="#services">Services</a></li>
+          <li><a class="ui-btn ui-icon-user ui-btn-icon-bottom" href="#login">Login</a></li>
+          <li><a class="ui-btn ui-icon-grid ui-btn-icon-bottom" href="#register">Register</a></li>
+          <li><a class="ui-btn ui-icon-mail ui-btn-icon-bottom" href="#contact">Contact</a></li>
         </ul>
       </nav>
-    </div>
+    </header>
 
     <main data-role="main" class="ui-content">
     <h1 class="servicestitle">My Services</h1>
@@ -188,11 +188,11 @@
     <div data-role="header" data-position="fixed">
       <nav data-role="navbar">
         <ul>
-          <li class="tab"><a class="ui-btn ui-icon-cloud ui-btn-icon-bottom" href="#home">Home</a></li>
-          <li class="tab"><a class="ui-btn ui-icon-cloud ui-btn-icon-bottom" href="#services">Services</a></li>
-          <li class="tab"><a class="ui-btn ui-icon-user ui-btn-icon-bottom ui-btn-active ui-state-persist" href="#login">Login</a></li>
-          <li class="tab"><a class="ui-btn ui-icon-grid ui-btn-icon-bottom" href="#register">Register</a></li>
-          <li class="tab"><a class="ui-btn ui-icon-mail ui-btn-icon-bottom" href="#contact">Contact</a></li>
+          <li><a class="ui-btn ui-icon-cloud ui-btn-icon-bottom" href="#home">Home</a></li>
+          <li><a class="ui-btn ui-icon-cloud ui-btn-icon-bottom" href="#services">Services</a></li>
+          <li><a class="ui-btn ui-icon-user ui-btn-icon-bottom ui-btn-active ui-state-persist" href="#login">Login</a></li>
+          <li><a class="ui-btn ui-icon-grid ui-btn-icon-bottom" href="#register">Register</a></li>
+          <li><a class="ui-btn ui-icon-mail ui-btn-icon-bottom" href="#contact">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -225,11 +225,11 @@
     <div data-role="header" data-position="fixed">
       <nav data-role="navbar">
         <ul>
-          <li class="tab"><a class="ui-btn ui-icon-cloud ui-btn-icon-bottom" href="#home">Home</a></li>
-          <li class="tab"><a class="ui-btn ui-icon-cloud ui-btn-icon-bottom" href="#services">Services</a></li>
-          <li class="tab"><a class="ui-btn ui-icon-user ui-btn-icon-bottom" href="#login">Login</a></li>
-          <li class="tab"><a class="ui-btn ui-icon-grid ui-btn-icon-bottom ui-btn-active ui-state-persist" href="#register">Register</a></li>
-          <li class="tab"><a class="ui-btn ui-icon-mail ui-btn-icon-bottom" href="#contact">Contact</a></li>
+          <li><a class="ui-btn ui-icon-cloud ui-btn-icon-bottom" href="#home">Home</a></li>
+          <li><a class="ui-btn ui-icon-cloud ui-btn-icon-bottom" href="#services">Services</a></li>
+          <li><a class="ui-btn ui-icon-user ui-btn-icon-bottom" href="#login">Login</a></li>
+          <li><a class="ui-btn ui-icon-grid ui-btn-icon-bottom ui-btn-active ui-state-persist" href="#register">Register</a></li>
+          <li><a class="ui-btn ui-icon-mail ui-btn-icon-bottom" href="#contact">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -281,11 +281,11 @@
     <div data-role="header" data-position="fixed">
       <nav data-role="navbar">
         <ul>
-          <li class="tab"><a class="ui-btn ui-icon-cloud ui-btn-icon-bottom" href="#home">Home</a></li>
-          <li class="tab"><a class="ui-btn ui-icon-cloud ui-btn-icon-bottom" href="#services">Services</a></li>
-          <li class="tab"><a class="ui-btn ui-icon-user ui-btn-icon-bottom" href="#login">Login</a></li>
-          <li class="tab"><a class="ui-btn ui-icon-grid ui-btn-icon-bottom" href="#register">Register</a></li>
-          <li class="tab"><a class="ui-btn ui-icon-mail ui-btn-icon-bottom ui-btn-active ui-state-persist" href="#contact">Contact</a></li>
+          <li><a class="ui-btn ui-icon-cloud ui-btn-icon-bottom" href="#home">Home</a></li>
+          <li><a class="ui-btn ui-icon-cloud ui-btn-icon-bottom" href="#services">Services</a></li>
+          <li><a class="ui-btn ui-icon-user ui-btn-icon-bottom" href="#login">Login</a></li>
+          <li><a class="ui-btn ui-icon-grid ui-btn-icon-bottom" href="#register">Register</a></li>
+          <li><a class="ui-btn ui-icon-mail ui-btn-icon-bottom ui-btn-active ui-state-persist" href="#contact">Contact</a></li>
         </ul>
       </nav>
     </div>
