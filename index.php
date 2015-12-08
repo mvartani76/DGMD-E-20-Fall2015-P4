@@ -109,41 +109,62 @@
     
     <p>As a small/medium sized business owner, you intimately understand the balance of money in and money out. I understand
       this too. And since I only have a few web design classes under my belt, I offer this lack of skill and experience at a
-      very affordable price. I will work hard finding creative ways to build affordable websites that kick-ass!
+      very affordable price. I will work hard finding creative ways to build affordable websites that kick-ass! (Well maybe
+      not quite kick-ass but kinda good...:))
       A great website doesn't have to cost thousands, but it does have to be awesome!</p>
     <div class="ui-grid-b">
       <div class="ui-block-a">
-       <h2 class="ui-bar">Web Design</h2>
-       <p>A website is the core of any business. It is the first step to building a successful marketing strategy.
-        Think about it, when we hand out a business card, we are telling the recipient to visit our site. When we run
-        Google Ad campaigns, we are driving traffic to our website. When we meet someone, and the conversation turns into
-        what we do for a living, that person will inevitably visit our site. Everything we do drives traffic to our web site,
-        and unfortunately, most small business sites out there today are not good. The fact is, business owners and
-        entrepreneurs spend a lot of time and money driving traffic to websites that don't convert visitors into buyers.
-        Why? Because history has told us that if we want a webpage that is going to generate more clients and customers,
-        we have to pay a lot of money. Right? Wrong!</p>
+       <div data-role="collapsible">
+          <h2>Web and Mobile App Design</h2>
+          <p>A website (and now a mobile application) is pretty much the core of any business. It is one of the initial steps
+          in building a strong, coherent, and successful marketing strategy.</p>
+          <p>So.... Think about it.... When you hand out a business card, you are telling the recipient to visit your site or
+          download your mobile application. When you run Google Ad campaigns, you are driving traffic to your website.
+          When you meet someone, and the conversation turns into what you do for a living, that person will inevitably visit
+          your place in cyber world.</p>
+          <p>Everything we do drives traffic to our digital presence, but unfortunately, most small/medium
+          sized business sites out there today are not that great. They are usually quite mediocre.. And cost way too much...</p>
+          <p>If you want mediocre, I can give you that for a fraction of the price... But seriously, the fact is, business owners,
+          startup dreamers/geeks/nerds/visionaries/etc., and general old fashioned entrepreneurs spend a lot of time and
+          money driving traffic to websites or mobile applications that don't necessarily convert visitors into buyers.</p>
+          <p>Soooo... We need to correct this... Stop paying too much for your website...</p>
+          <p>Let me show you how I can help convert
+          those visitors to buyers at a fraction of the price!</p>
+        </div>
       </div> <!-- End ui-block-a -->
       <div class="ui-block-b">
-        <h2 class="ui-bar">Web Hosting</h2>
-        <p>Today, it's no secret that building a strong internet presence can do more for your business than most forms of
-          offline marketing. From websites to email marketing, each aspect of your online presence plays a very important
-          role in finding new clients and engaging with customers. The core of your business online is your website. While
-          smart business owners invest time and money into a great website, most opt for the most inexpensive website hosting.
-          Why? Cheap, unreliable website hosting can lead to loss of revenue, negative effects on SEO Ranking, security
-          issues, and frustration. Furthermore, most website hosting companies don't support or troubleshoot issues, other
-          than those originating from their servers. What does this mean? This means that if your website isn't functioning
-          quite right, it's up to you to find a developer, or fix it yourself. So what's the solution?</p>
+        <div data-role="collapsible">
+          <h2>Web Hosting</h2>
+          <p>It is really no big secret that building a strong internet presence can do more for your business than most forms of
+            offline marketing.</p>
+          <p>From websites, to mobile applications, to email marketing, and to very contextually relevant offers, each aspect of
+            your online presence plays a very important role in finding new clients and engaging with customers. The core of your
+            business online is your suite of online homes from your website, your mobile application, and your social media.</p>
+          <p>While smart business owners invest time and money into a great digital brand, most opt for the most inexpensive website hosting.
+            Why? Cheap, unreliable website hosting can lead to loss of revenue, negative effects on SEO Ranking, security
+            issues, and frustration.... I am not saying I can give you the best digital/online image, but I think I can do okay
+            and do it very cheaply....</p>
+          <p>Furthermore, most website hosting establishments don't offer support or troubleshoot issues, other
+            than those originating from their servers.</p>
+          <p>So what does this mean to you? This means that if your digital brand isn't functioning
+            quite right, it's up to you to find a developer or developers, or fix it yourself. So what's the solution?</p>
+        </div>
       </div> <!-- End block-b -->
       <div class="ui-block-c">
-        <h2 class="ui-bar">Online/Mobile Marketing Strategy</h2>
-        <p>The landscape and tactics used for online marketing are ever changing. What might work today, doesn't always work
-          tomorrow. Successful businesses are constantly evolving their marketing strategy to stay in-tune with what is
+        <div data-role="collapsible">
+          <h2>Online/Mobile Marketing Strategy</h2>
+          <p>The landscape and tactics used for online marketing are ever changing. What might work today, doesn't always work
+          tomorrow. What used to be state of the art today, is old news tomorrow...</p>
+          <p>Online marketing has exploded way beond the digital realm and has crept back into the physical world through the
+            billions of smart devices that we use every day.</p>
+          Successful businesses are constantly evolving their marketing strategy to stay in-tune with what is
           working, and spending less on what's not. From Email Marketing to pay-per-click ads, there are a number of ways to
           market your business online. Some of these methods cost next to nothing, while others can cost a fortune. The
           problem is, a lot of business owners don't know what will work, or what is currently working to drive traffic to
           their website. This means a lot of wasted money on ineffective online strategies. We work with our clients to build
           highly-effective online marketing strategies. No matter if it's a doctor's office or  a restaurant, each strategy
           is a customized solution for best results. We'll show you exactly what to do to make the internet work for you!</p>
+        </div>
       </div> <!-- End block-c -->
     </div> <!-- End grid-b -->
 
