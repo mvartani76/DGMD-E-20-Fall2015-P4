@@ -307,11 +307,11 @@ $(document).ready(function(){
 	$( window ).on( "orientationchange", function( event ) {
   	$( "#orientation" ).text( "This device is in " + event.orientation + " mode!" );
 
-	$('main').bind('swipeleft', function(event){
+	$('#mobileinternetswipe').bind('swipeleft', function(event){
 		$('#mobileinternetswipe').removeClass().addClass('mobileinternet-one');
 	}); //end swipe left
 
-	$('main').bind('swiperight', function(event){
+	$('#mobileinternetswipe').bind('swiperight', function(event){
 		$('#mobileinternetswipe').removeClass().addClass('mobileinternet-two');
 	}); //end swipe right
 
