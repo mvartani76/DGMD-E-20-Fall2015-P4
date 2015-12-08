@@ -10,8 +10,8 @@
   <link rel="stylesheet" href="css/custom.css">
   <link rel="stylesheet" href="css/imagestyle.css">
   <link rel="prefetch" href="images/mobile_internet1.jpg">
-  <link rel="prefetch" href="images/mobile_internet2.jpg">
-  <link rel="prefetch" href="images/mobile_internet3.jpg">
+  <link rel="prefetch" href="images/mobile-internet2.jpg">
+  <link rel="prefetch" href="images/mobile-internet3.jpg">
   <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
 </head>

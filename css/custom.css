@@ -35,18 +35,27 @@
 
 #mobileinternetswipe {
 	width: 100%;
-	height: 50px;
-	border: 2px solid red;;
+	height: 150px;
+	border: 2px solid red;
 }
 
 .mobileinternet-one {
 	background-image: url(../images/mobile_internet1.jpg);
+	background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;   
 }
 .mobileinternet-two {
-	background-image: url(../images/mobile_internet2.jpg);
+	background-image: url(../images/mobile-internet2.jpg);
+	background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;   	
 }
 .mobileinternet-three {
-	background-image: url(../images/mobile_internet3.jpg);
+	background-image: url(../images/mobile-internet3.jpg);
+	background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;   	
 }
 
 
