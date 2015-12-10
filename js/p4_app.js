@@ -1,28 +1,5 @@
 $(document).ready(function(){
 	console.log("Document Loaded");
-         
-	// This is my Part 1 Hover Effect Code section - this is demonstrated in index.php
-	$('.womanaskingformoneypic').hover(function(){
-		$('.womanaskingformoneypic').attr({
-			'src': './images/woman-asking-for-money.jpg'
-		});
-
-		// This is some filtering code in combination with the Hover Effect
-		// The paragraph text color alternates between red and a shade of blue
-		// when the user hovers over the woman-asking-for-money picture
-		$('#sobstoryquotes p').filter(':odd').css('color', 'red' );
-		$('#sobstoryquotes p').filter(':even').css('color', '#0c9eed' );
-	},
-	function(){
-		$('.womanaskingformoneypic').attr({
-			'src': './images/woman-asking-for-money-pre.jpg'
-		});
-
-		// Do not need any filtering for the exit hover as all of the p text will be white
-		$('#sobstoryquotes p').css('color', 'white' );
-	}); // end hover over woman asking for money pictures
-	// End of Part 1 Click Effect Code Section
-
 
 	// Part 1 form if/else validation
 
@@ -269,8 +246,6 @@ $(document).ready(function(){
 	}); // end flag errors when button is depressed
 	// End of Part 1 if/else form validation
 
-	$('.paperondeskpic').fadeOut(5000).fadeIn(5000);
-
 	// FadeIn effect used in login.php
 	$('.logincontainer').hide();
 	$('.logincontainer').fadeIn(3000);
@@ -293,9 +268,6 @@ $(document).ready(function(){
 		$('#mobileinternettaphold').addClass('mobileinternet-three');
 	}); //end taphold
 
-
-	var containment = $( ".selector" ).draggable( "option", "containment" );
-
 	$(function() {
       $('#draggable1').draggable({
       	scroll: false,
@@ -310,7 +282,6 @@ $(document).ready(function(){
       	containment: "parent"
       }  );
 	});
-
 
 	$('#dropSad').droppable(
     {
