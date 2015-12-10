@@ -293,4 +293,75 @@ $(document).ready(function(){
 		$('#mobileinternettaphold').addClass('mobileinternet-three');
 	}); //end taphold
 
+
+	var containment = $( ".selector" ).draggable( "option", "containment" );
+
+	$(function() {
+      $('#draggable1').draggable({
+      	scroll: false,
+      	containment: "parent",
+      	cursor: "crosshair"
+      }  );
+	});
+
+	$(function() {
+      $('#draggable2').draggable({
+      	scroll: false,
+      	containment: "parent"
+      }  );
+	});
+
+
+	$('#dropSad').droppable(
+    {
+        over : function(event, ui){
+        	var idd = ui.draggable.attr("id");
+        	var stridd = "#" + String(idd);
+            $(this).animate({'border-width' : '5px',
+                             'border-color' : '#0f0'
+                            }, 500);
+            $(stridd).stop().animate({opacity: 0},50,function(){
+    			$(stridd).css({'background-image': "url('/images/smiley-sad.png')"})
+               .animate({opacity: 1},{duration:50});
+           	});
+		},
+        drop: function(event, ui) {
+    		var pos = ui.draggable.position();
+    		var idd = ui.draggable.attr("id");
+    		var stridd = "#" + String(idd);
+    		//alert('top: ' + pos.top + ', left: ' + pos.left + ', id: ' + idd);
+
+    		$(stridd).stop().animate({opacity: 0},50,function(){
+    			$(stridd).css({'background-image': "url('/images/smiley-very-sad.png')"})
+               .animate({opacity: 1},{duration:50});
+           	});
+  		}
+    });
+
+	$('#dropHappy').droppable(
+    {
+        over : function(event, ui){
+        	var idd = ui.draggable.attr("id");
+        	var stridd = "#" + String(idd);
+            $(this).animate({'border-width' : '5px',
+                             'border-color' : '#0f0'
+                            }, 500);
+            $(stridd).stop().animate({opacity: 0},50,function(){
+    			$(stridd).css({'background-image': "url('/images/smiley-blowkiss.png')"})
+               .animate({opacity: 1},{duration:50});
+           	});
+		},
+        drop: function(event, ui) {
+    		var pos = ui.draggable.position();
+    		var idd = ui.draggable.attr("id");
+    		var stridd = "#" + String(idd);
+    		//alert('top: ' + pos.top + ', left: ' + pos.left + ', id: ' + idd);
+
+    		$(stridd).stop().animate({opacity: 0},50,function(){
+    			$(stridd).css({'background-image': "url('/images/smiley-heart.png')"})
+               .animate({opacity: 1},{duration:50});
+           	});
+  		}
+    });
+
 }); // end ready

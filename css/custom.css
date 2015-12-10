@@ -1,4 +1,8 @@
 
+.larger-vertical {
+	min-height: 1000px;
+}
+
 .contactcontainer, .logincontainer, .registercontainer {width: 100%;}
 
 .logincontainer h3,
@@ -76,6 +80,40 @@
     background-position: center center;   	
 }
 
+#draggable1 {
+	background-image: url(../images/smiley-teeth.png);
+	background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+    width: 80px;
+    height: 80px;
+}
+
+#draggable2 {
+	background-image: url(../images/smiley-teeth.png);
+	background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+    width: 80px;
+    height: 80px;  	
+}
+
+#dropSad {
+    width: 12em;
+    height: 12em;
+    padding: 0.5em;
+    border: 3px solid #f90;
+    border-radius: 1em;
+    margin: 0 auto;
+}
+#dropHappy {
+    width: 12em;
+    height: 12em;
+    padding: 0.5em;
+    border: 3px solid #f90;
+    border-radius: 1em;
+    margin: 0 auto;
+}
 
 @media only all and (min-width: 768px) {
 	.contactcontainer, .logincontainer, .registercontainer {
