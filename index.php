@@ -89,8 +89,8 @@
       A great website doesn't have to cost thousands, but it does have to be awesome!</p>
     <div class="ui-grid-b">
       <div class="ui-block-a">
-       <div data-role="collapsible">
-          <h2>Web and Mobile App Design</h2>
+        <div data-role="collapsible" class="collapsible-a">
+          <h2 class="h2-collapsible-a">Web and Mobile App Design</h2>
           <p>A website (and now a mobile application) is pretty much the core of any business. It is one of the initial steps
           in building a strong, coherent, and successful marketing strategy.</p>
           <p>So.... Think about it.... When you hand out a business card, you are telling the recipient to visit your site or
@@ -103,8 +103,7 @@
           startup dreamers/geeks/nerds/visionaries/etc., and general old fashioned entrepreneurs spend a lot of time and
           money driving traffic to websites or mobile applications that don't necessarily convert visitors into buyers.</p>
           <p>Soooo... We need to correct this... Stop paying too much for your website...</p>
-          <p>Let me show you how I can help convert
-          those visitors to buyers at a fraction of the price!</p>
+          <p>Let me show you how I can help convert those visitors to buyers at a fraction of the price!</p>
           <div class="mobileexamplefunctionality">
             <h3>Mobile App Example Functionality</h3>
             <h4>Orientation Example...</h4>
@@ -117,10 +116,11 @@
             <div id="mobileinternettaphold" class="start"></div>
           </div>
         </div>
+        <img src="./images/Web-Graphic-Design.jpg" class="servicespics-a">
       </div> <!-- End ui-block-a -->
       <div class="ui-block-b">
-        <div data-role="collapsible">
-          <h2>Web Hosting</h2>
+        <div data-role="collapsible" class="collapsible-b">
+          <h2 class="h2-collapsible-b">Web Hosting</h2>
           <p>It is really no big secret that building a strong internet presence can do more for your business than most forms of
             offline marketing.</p>
           <p>From websites, to mobile applications, to email marketing, and to very contextually relevant offers, each aspect of
@@ -135,22 +135,25 @@
           <p>So what does this mean to you? This means that if your digital brand isn't functioning
             quite right, it's up to you to find a developer or developers, or fix it yourself. So what's the solution?</p>
         </div>
+        <img src="./images/web-hosting.jpg" class="servicespics-b">        
       </div> <!-- End block-b -->
       <div class="ui-block-c">
-        <div data-role="collapsible">
-          <h2>Online/Mobile Marketing Strategy</h2>
+        <div data-role="collapsible" class="collapsible-c">
+          <h2 class="h2-collapsible-c">Online/Mobile Marketing Strategy</h2>
           <p>The landscape and tactics used for online marketing are ever changing. What might work today, doesn't always work
           tomorrow. What used to be state of the art today, is old news tomorrow...</p>
           <p>Online marketing has exploded way beond the digital realm and has crept back into the physical world through the
-            billions of smart devices that we use every day.</p>
-          Successful businesses are constantly evolving their marketing strategy to stay in-tune with what is
+          billions of smart devices that we use every day.</p>
+          <p>Successful businesses are constantly evolving their marketing strategy to stay in-tune with what is
           working, and spending less on what's not. From Email Marketing to pay-per-click ads, there are a number of ways to
-          market your business online. Some of these methods cost next to nothing, while others can cost a fortune. The
-          problem is, a lot of business owners don't know what will work, or what is currently working to drive traffic to
-          their website. This means a lot of wasted money on ineffective online strategies. We work with our clients to build
-          highly-effective online marketing strategies. No matter if it's a doctor's office or  a restaurant, each strategy
-          is a customized solution for best results. We'll show you exactly what to do to make the internet work for you!</p>
+          market your business online. Some of these methods cost next to nothing, while others can cost a fortune.</p>
+          <p>The problem is, a lot of business owners don't know what will work, or what is currently working to drive traffic to
+          their website. This means a lot of wasted money on ineffective online strategies.</p>
+          <p>I work with our clients to build highly-effective online marketing strategies. No matter if it's a doctor's
+          office or a restaurant, each strategy is a customized solution for best results. I will try to show you exactly what to
+          do to make the internet work for you!</p>
         </div>
+        <img src="./images/online-strategy.png" class="servicespics-c">
       </div> <!-- End block-c -->
     </div> <!-- End grid-b -->
 

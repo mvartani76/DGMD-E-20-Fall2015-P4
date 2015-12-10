@@ -268,6 +268,19 @@ $(document).ready(function(){
 		$('#mobileinternettaphold').addClass('mobileinternet-three');
 	}); //end taphold
 
+  $('.h2-collapsible-a').click(function() {
+    $('img.servicespics-a').toggle();
+    return false;
+  });
+    $('.h2-collapsible-b').click(function() {
+    $('img.servicespics-b').toggle();
+    return false;
+  });
+    $('.h2-collapsible-c').click(function() {
+    $('img.servicespics-c').toggle();
+    return false;
+  });    
+
 	$(function() {
       $('#draggable1').draggable({
       	scroll: false,

@@ -115,6 +115,14 @@
     margin: 0 auto;
 }
 
+.servicespics-a, .servicespics-b, .servicespics-c {
+	width: 98%;
+	height : 200px;
+	margin: 4px auto;
+	padding-left: 1%;
+	padding-right: 1%;	
+}
+
 @media only all and (min-width: 768px) {
 	.contactcontainer, .logincontainer, .registercontainer {
 		background-color: #6E6E6E;
@@ -149,5 +157,10 @@
 	#services .ui-content .ui-block-b,
 	#services .ui-content .ui-block-c {
 		width: 33.33333%;
+	}
+
+	.servicespics-a, .servicespics-b, .servicespics-c {	
+		height : 400px;
+		margin: 10px auto;
 	}
 }
