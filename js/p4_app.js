@@ -269,15 +269,15 @@ $(document).ready(function(){
 	}); //end taphold
 
   $('.h2-collapsible-a').click(function() {
-    $('img.servicespics-a').toggle();
+    $('img.servicespics-a').toggle("fold", 1000);
     return false;
   });
     $('.h2-collapsible-b').click(function() {
-    $('img.servicespics-b').toggle();
+    $('img.servicespics-b').toggle("drop", 1000);
     return false;
   });
     $('.h2-collapsible-c').click(function() {
-    $('img.servicespics-c').toggle();
+    $('img.servicespics-c').toggle("fade", 1000);
     return false;
   });    
 
