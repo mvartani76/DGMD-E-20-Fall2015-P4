@@ -314,6 +314,7 @@ $(document).ready(function(){
 
 	$('#dropSad').droppable(
     {
+    	// change the image to the sad face emoji icon if dragging over #dropSad
         over : function(event, ui){
         	var idd = ui.draggable.attr("id");
         	var stridd = "#" + String(idd);
@@ -325,21 +326,31 @@ $(document).ready(function(){
                .animate({opacity: 1},{duration:50});
            	});
 		},
+		// change the image to the crying eyes emoji icon if dropped in #dropSad
         drop: function(event, ui) {
-    		var pos = ui.draggable.position();
     		var idd = ui.draggable.attr("id");
     		var stridd = "#" + String(idd);
-    		//alert('top: ' + pos.top + ', left: ' + pos.left + ', id: ' + idd);
 
     		$(stridd).stop().animate({opacity: 0},50,function(){
     			$(stridd).css({'background-image': "url('/images/smiley-very-sad.png')"})
                .animate({opacity: 1},{duration:50});
            	});
-  		}
+  		},
+  		// change (revert back) the image to the teeth emoji icon if outside #dropSad
+        out: function(event, ui) {
+    		var idd = ui.draggable.attr("id");
+    		var stridd = "#" + String(idd);
+
+    		$(stridd).stop().animate({opacity: 0},50,function(){
+    			$(stridd).css({'background-image': "url('/images/smiley-teeth.png')"})
+               .animate({opacity: 1},{duration:50});
+           	});
+  		}  		
     });
 
 	$('#dropHappy').droppable(
     {
+    	// change the image to the blowing kiss emoji icon if dragging over #dropHappy
         over : function(event, ui){
         	var idd = ui.draggable.attr("id");
         	var stridd = "#" + String(idd);
@@ -351,17 +362,26 @@ $(document).ready(function(){
                .animate({opacity: 1},{duration:50});
            	});
 		},
+		// change the image to the heart eyes emoji icon if dropped in #dropHappy
         drop: function(event, ui) {
-    		var pos = ui.draggable.position();
     		var idd = ui.draggable.attr("id");
     		var stridd = "#" + String(idd);
-    		//alert('top: ' + pos.top + ', left: ' + pos.left + ', id: ' + idd);
 
     		$(stridd).stop().animate({opacity: 0},50,function(){
     			$(stridd).css({'background-image': "url('/images/smiley-heart.png')"})
                .animate({opacity: 1},{duration:50});
            	});
-  		}
+  		},
+  		// change (revert back) the image to the teeth emoji icon if outside #dropHappy
+        out: function(event, ui) {
+    		var idd = ui.draggable.attr("id");
+    		var stridd = "#" + String(idd);
+
+    		$(stridd).stop().animate({opacity: 0},50,function(){
+    			$(stridd).css({'background-image': "url('/images/smiley-teeth.png')"})
+               .animate({opacity: 1},{duration:50});
+           	});  
+    	}
     });
 
 }); // end ready
