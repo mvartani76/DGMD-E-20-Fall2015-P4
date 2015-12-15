@@ -5,7 +5,7 @@
   <title>Mike's Amateur Web Design</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
-    <link rel="stylesheet" href="css/jquery-ui.min.css">
+  <link rel="stylesheet" href="css/jquery-ui.min.css">
   <link rel="stylesheet" href="css/jquery-ui.structure.min.css">
   <link rel="stylesheet" href="css/jquery-ui.theme.min.css">
 
@@ -13,17 +13,12 @@
   <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
   <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
 
-  
-  <style>
-  #draggable { width: 150px; height: 150px; padding: 0.5em; }
-  </style>
-
-
   <link rel="stylesheet" href="css/custom.css">
   <link rel="stylesheet" href="css/imagestyle.css">
   <link rel="prefetch" href="images/mobile_internet1.jpg">
   <link rel="prefetch" href="images/mobile-internet2.jpg">
   <link rel="prefetch" href="images/mobile-internet3.jpg">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
   <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
 </head>
@@ -43,8 +38,8 @@
     <main data-role="main" class="ui-content larger-vertical">
       <h1>Web Design Home Page for Mike Vartanian</h1>
         <p>So I am a very average web developer but I am constantly trying to improve my skills.
-          I am open for work and offer many services described in my services page... On this page, I briefly describe
-          myself and show some of the new and cool jQuery UI based web designs that I can offer... :)</p>
+          I am open for work and offer many services described in my services page... On this page in the jQuery UI tabs below,
+          I briefly describe myself and show some of the new and cool jQuery UI based web designs that I can offer... :)</p>
       
       <div id="tab_example">
         <ul>
@@ -107,7 +102,8 @@
     
     <p>As a small/medium sized business owner, you intimately understand the balance of money in and money out. I understand
       this too. And since I only have a few web design classes under my belt, I offer this lack of skill and experience at a
-      very affordable price. I will work hard finding creative ways to build affordable websites that kick-ass! (Well maybe
+      very affordable price.</p>
+    <p>I will work hard finding creative ways to build affordable websites that kick-ass! (Well maybe
       not quite kick-ass but kinda good...:))
       A great website doesn't have to cost thousands, but it does have to be awesome!</p>
     <div class="ui-grid-b">
@@ -172,9 +168,10 @@
           market your business online. Some of these methods cost next to nothing, while others can cost a fortune.</p>
           <p>The problem is, a lot of business owners don't know what will work, or what is currently working to drive traffic to
           their website. This means a lot of wasted money on ineffective online strategies.</p>
-          <p>I work with our clients to build highly-effective online marketing strategies. No matter if it's a doctor's
-          office or a restaurant, each strategy is a customized solution for best results. I will try to show you exactly what to
-          do to make the internet work for you!</p>
+          <p>I work with my clients to build highly-effective online marketing strategies. No matter if it is a doctor's
+          office or a restaurant or a gas station, each strategy is a customized solution for optimum results. I will try to
+          show you exactly what to do to make the "interwebs" and mobile apps work for you! And remember I do this for a
+          a very affordable price too!!!</p>
         </div>
         <img src="./images/online-strategy.png" class="servicespics-c">
       </div> <!-- End block-c -->
