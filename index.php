@@ -45,7 +45,7 @@
         <ul>
           <li><a href="#tab-1"><span>One</span></a></li>
           <li><a href="#tab-2"><span>Some Effects</span></a></li>
-          <li><a href="#tab-3"><span>Drag/Drop Game (Desktop Only)</span></a></li>
+          <li class="jqueryUItabgame"><a href="#tab3"><span>Drag/Drop Game (Desktop Only)</span></a></li>
         </ul>
         <div id="tab-1">
           <p>First tab is active by default:</p>
@@ -55,8 +55,10 @@
           <div id="bounce_example"></div>
           <div id="color_example">Lets Change Some Colors!!</div>
         </div>
-        <div id="tab-3">
-    
+        <div id="tab3">
+          <p>So this is a very simple game where you can drag the smiley faces to the sad or happy boxes and depending
+            on which box you drag the smiley over, the smiley will get sad or more happy... This makes use of the jQueryUI
+            droppable and draggable widgets...</p>
           <div id="draggable1"></div>
 
           <div id="draggable2"></div>

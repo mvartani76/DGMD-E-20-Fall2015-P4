@@ -383,5 +383,4 @@ $( "#color_example" ).click(function() {
   });
 });
 
-
 }); // end ready

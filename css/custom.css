@@ -80,6 +80,12 @@
     background-position: center center;   	
 }
 
+/* Class for third tab that allows displaying tab based on screen size */
+.jqueryUItabgame {
+	display: none;
+}
+
+
 #draggable1 {
 	display: none;
 	background-image: url(../images/smiley-teeth.png);
@@ -185,6 +191,11 @@
 	.servicespics-a, .servicespics-b, .servicespics-c {	
 		height : 400px;
 		margin: 10px auto;
+	}
+
+	/* Class for third tab that allows displaying tab based on screen size */
+	.jqueryUItabgame {
+		display: inherit;
 	}
 
 	#draggable1 {
