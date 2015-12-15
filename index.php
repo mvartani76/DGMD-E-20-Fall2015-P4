@@ -5,13 +5,14 @@
   <title>Mike's Amateur Web Design</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+  <link rel="stylesheet" href="css/jquery-ui.structure.min.css">
+  <link rel="stylesheet" href="css/jquery-ui.theme.min.css">
 
   <link rel="stylesheet" href="themes/cool-slate.min.css" />
   <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
   <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
-  <link rel="stylesheet" href="css/jquery-ui.min.css">
-  <link rel="stylesheet" href="css/jquery-ui.structure.min.css">
-  <link rel="stylesheet" href="css/jquery-ui.theme.min.css">
+
   
   <style>
   #draggable { width: 150px; height: 150px; padding: 0.5em; }
@@ -40,16 +41,38 @@
       </nav>
     </header>
     <main data-role="main" class="ui-content larger-vertical">
-      <h1>My jQuery UI based Home Page</h1>
-        <div>
-        <div id="draggable1">
+      <h1>Web Design Home Page for Mike Vartanian</h1>
+        <p>So I am a very average web developer but I am constantly trying to improve my skills.
+          I am open for work and offer many services described in my services page... On this page, I briefly describe
+          myself and show some of the new and cool jQuery UI based web designs that I can offer... :)</p>
+      
+      <div id="tab_example">
+        <ul>
+          <li><a href="#tab-1"><span>One</span></a></li>
+          <li><a href="#tab-2"><span>Some Effects</span></a></li>
+          <li><a href="#tab-3"><span>Drag/Drop Game (Desktop Only)</span></a></li>
+        </ul>
+        <div id="tab-1">
+          <p>First tab is active by default:</p>
+          <pre><code>$( "#tabs" ).tabs(); </code></pre>
         </div>
-
-        <div id="draggable2">
+        <div id="tab-2">
+          <div id="bounce_example"></div>
+          <div id="color_example">Lets Change Some Colors!!</div>
         </div>
+        <div id="tab-3">
+    
+          <div id="draggable1"></div>
 
-        <div id="dropSad"></div>
-        <div id="dropHappy"></div>
+          <div id="draggable2"></div>
+          
+          <div id="dropSad">
+            <p>Drop here for Sadness...</p>
+          </div>
+          <div id="dropHappy">
+            <p>Drop here for Happiness...</p>
+          </div>
+        </div>
       </div>
     </main>
 

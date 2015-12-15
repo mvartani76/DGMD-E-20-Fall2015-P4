@@ -81,6 +81,7 @@
 }
 
 #draggable1 {
+	display: none;
 	background-image: url(../images/smiley-teeth.png);
 	background-size:     cover;
     background-repeat:   no-repeat;
@@ -90,6 +91,7 @@
 }
 
 #draggable2 {
+	display: none;
 	background-image: url(../images/smiley-teeth.png);
 	background-size:     cover;
     background-repeat:   no-repeat;
@@ -99,6 +101,7 @@
 }
 
 #dropSad {
+	display: none;
     width: 12em;
     height: 12em;
     padding: 0.5em;
@@ -106,7 +109,9 @@
     border-radius: 1em;
     margin: 0 auto;
 }
+
 #dropHappy {
+	display: none;
     width: 12em;
     height: 12em;
     padding: 0.5em;
@@ -114,6 +119,25 @@
     border-radius: 1em;
     margin: 0 auto;
 }
+
+/* Bounce Effect style for small screen size used in home page tabs */
+#bounce_example {
+	width: 75px;
+	height: 75px;
+	background: #ccc;
+}
+
+/* Color Animation Effect style for small screen size used in home page tabs */
+#color_example {
+	width: 75px;
+	height: 75px;
+	color: blue;
+	background-color: #aaa;
+	font-size: 15px;
+	padding: 1em;
+	text-align: center;
+}
+
 
 .servicespics-a, .servicespics-b, .servicespics-c {
 	width: 98%;
@@ -148,7 +172,6 @@
 	}
 
 	.servicestitle h1 {
-	
 		font-size: 48px;
 		font-family: 'Montserrat', sans-serif;
 	}
@@ -163,4 +186,64 @@
 		height : 400px;
 		margin: 10px auto;
 	}
+
+	#draggable1 {
+		display: inherit;
+		background-image: url(../images/smiley-teeth.png);
+		background-size:     cover;
+	    background-repeat:   no-repeat;
+	    background-position: center center;
+	    width: 80px;
+	    height: 80px;
+	}
+
+	#draggable2 {
+		display: inherit;
+		background-image: url(../images/smiley-teeth.png);
+		background-size:     cover;
+	    background-repeat:   no-repeat;
+	    background-position: center center;
+	    width: 80px;
+	    height: 80px;  	
+	}
+
+	#dropSad {
+		display: inherit;
+	    width: 12em;
+	    height: 12em;
+	    padding: 0.5em;
+	    border: 3px solid #f90;
+	    border-radius: 1em;
+	    margin: 0 auto;
+	    float: left;
+	}
+
+	#dropHappy {
+		display: inherit;
+	    width: 12em;
+	    height: 12em;
+	    padding: 0.5em;
+	    border: 3px solid #f90;
+	    border-radius: 1em;
+	    margin: 0 auto;
+	    float: right;
+	}
+
+	/* Bounce Effect style for larger screen size used in home page tabs */
+	#bounce_example {
+	    width: 200px;
+	    height: 200px;
+	    background: #ccc;
+	}
+
+	/* Color Animation Effect style for larger screen size used in home page tabs */
+	#color_example {
+		width: 200px;
+	    height: 200px;
+	    color: blue;
+	    background-color: #aaa;
+	    font-size: 25px;
+	    padding: 1em;
+	    text-align: center;
+	  }
 }

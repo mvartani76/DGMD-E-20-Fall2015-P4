@@ -368,4 +368,20 @@ $(document).ready(function(){
     	}
     });
 
+$( "#tab_example" ).tabs({
+	heightStyle: "fill"
+});
+
+$( "#bounce_example" ).click(function() {
+	$( "#bounce_example" ).toggle( "bounce", { distance: 50 }, { times: 4 }, "slow" );
+});
+
+$( "#color_example" ).click(function() {
+  $( "#color_example" ).animate({
+    color: "green",
+    backgroundColor: "rgb(0, 172, 199)"
+  });
+});
+
+
 }); // end ready
