@@ -9,6 +9,10 @@
 	margin: 5px;
 }
 
+#accordion h3 {
+	color: #0c9eed;	
+}
+
 .contactcontainer, .logincontainer, .registercontainer {width: 100%;}
 
 .logincontainer h3,
@@ -149,7 +153,6 @@
 	padding: 1em;
 	text-align: center;
 }
-
 
 .servicespics-a, .servicespics-b, .servicespics-c {
 	width: 98%;

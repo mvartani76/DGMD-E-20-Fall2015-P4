@@ -58,10 +58,8 @@
 
           <p>Well since I don't really know how to talk about myself, I pretty much just pasted my CV in this section...
             I did, however, use the jQueryUI accordion widget to separate the different sections and I put a nice looking
-            picture of myself in one of the accordion panesl...:)</p>
+            picture of myself in one of the accordion panels...:)</p>
           <div id="accordion">
-            <h1>A NICE PHOTO OF ME...</h1>
-                <img src="./images/mikepic.png" class="mikepic">
             <h1>EMPLOYMENT HISTORY</h1>
             <div>
               <h3>Senior Business Development Manager 9/2015-Present</br>
@@ -164,26 +162,22 @@
             </div>
             <h1>EDUCATION</h1>
             <div>
-              Harvard University Extension School, Cambridge, MA Expected December, 2018
-
-              Masters in Information Management Systems
+              <h3>Harvard University Extension School, Cambridge, MA Expected December, 2018</br>
+              Masters in Information Management Systems (I think...)</h3>
 
               Major Concentration: Web Development, Database Management
 
-               Relevant Coursework: Dynamic Web Application Development, Web-Based Database Applications, Web Content 
+              Relevant Coursework: Dynamic Web Application Development, Web-Based Database Applications, Web Content 
               Management Systems, Mobile and Cloud Computing
-              University of Michigan, Ann Arbor, MI December, 2008
-              Master of Business Administration (High Distinction)
-
+              
+              <h3>University of Michigan, Ann Arbor, MI December, 2008</br>
+              Master of Business Administration (High Distinction)</h3>
               Major Concentration: Finance, Accounting, Strategy
-
-               Relevant Coursework: Financial Valuation, Venture Capital / PE Finance, Quantitative Investment Strategy, 
-
+              Relevant Coursework: Financial Valuation, Venture Capital / PE Finance, Quantitative Investment Strategy, 
               Mergers and Acquisitions, Corporate Restructuring, Financial Statement Analysis
 
-              University of Michigan, Ann Arbor, MI May, 2001
-
-              Master of Science in Electrical Engineering GPA 7.24/9.0
+              <h3>University of Michigan, Ann Arbor, MI May, 2001</br>
+              Master of Science in Electrical Engineering GPA 7.24/9.0</h3>
 
               Major Concentration: Signal Processing
 
@@ -191,9 +185,10 @@
               processing, multi-variate optimization methods, probability theory, numerical and statistical methods
               University of Michigan, Ann Arbor, MI May, 1999</p>
 
-              Bachelor of Science in Electrical Engineering (Summa Cum Laude) GPA 3.88/4.0
-              University of Michigan, Ann Arbor, MI May, 1999</br>
-              Bachelor of Fine Arts in Performing Arts and Technology (with Highest Honors) GPA 3.88/4.0
+              <h3>Bachelor of Science in Electrical Engineering (Summa Cum Laude) GPA 3.88/4.0</br>
+              University of Michigan, Ann Arbor, MI May, 1999</h3>
+              <h3>Bachelor of Fine Arts in Performing Arts and Technology (with Highest Honors) GPA 3.88/4.0</br>
+              University of Michigan, Ann Arbor, MI May, 1999</h3>
             </div>
             <h1>SKILLS & INTERESTS</h1>
             <div>
@@ -218,15 +213,17 @@
             <h1>PATENTS</h1>
             <div>
               <ul>
-                <li>Alves, Rogerio; Yen, Kuan-chieh; Vartanian, Michael; Gadre, Sameer. Method and Apparatus for Improving 
+                <li><em>Alves, Rogerio; Yen, Kuan-chieh; Vartanian, Michael; Gadre, Sameer. </em>Method and Apparatus for Improving 
                 Intelligibility of Audible Speech Represented by a Speech Signal. U.S. Patent 8,321,215, filed November 23, 
                 2009, and issued November 27, 2012.</li>
-                <li>Alves, Rogerio; Yen, Kuan-chieh; Vartanian, Michael; Gadre, Sameer. Speech Intelligibility. U.S. Patent 
+                <li><em>Alves, Rogerio; Yen, Kuan-chieh; Vartanian, Michael; Gadre, Sameer.</em> Speech Intelligibility. U.S. Patent 
                 8,489,393, filed November 23, 2009, and issued July 16, 2013.</li>
-                <li>Vartanian, Michael. Method for Embedding Product Information in Video Using Radio Frequency Information. 
+                <li><em>Vartanian, Michael.</em> Method for Embedding Product Information in Video Using Radio Frequency Information. 
                 U.S. Patent Application Serial No. 14/289,307 filed May 28, 2014.</li>
               </ul>
             </div>
+            <h1>A NICE PHOTO OF ME...</h1>
+                <img src="./images/mikepic.png" class="mikepic">
           </div>
         </div>
         <!-- This tab section exhibits various jQueryUI effects -->
