@@ -55,13 +55,185 @@
           <li class="jqueryUItabgame"><a href="#tab3"><span>Drag/Drop Game (Desktop Only)</span></a></li>
         </ul>
         <div id="tab1">
-          <p>First tab is active by default:</p>
-          <pre><code>$( "#tabs" ).tabs(); </code></pre>
+
+          <p>Well since I don't really know how to talk about myself, I pretty much just pasted my CV in this section...
+            I did, however, use the jQueryUI accordion widget to separate the different sections and I put a nice looking
+            picture of myself in one of the accordion panesl...:)</p>
+          <div id="accordion">
+            <h1>A NICE PHOTO OF ME...</h1>
+                <img src="./images/mikepic.png" class="mikepic">
+            <h1>EMPLOYMENT HISTORY</h1>
+            <div>
+              <h3>Senior Business Development Manager 9/2015-Present</br>
+              Qualcomm, Inc. Auburn Hills, MI</br>
+              <em>Developer and innovator of advanced wireless technologies, products and services – 2015FY Revenue of $25.3B</em>
+              </h3>
+              <ul>
+                <li>Define Develop and Drive “Internet of Things” (IOT) channel marketing/sales support/demand creation
+                strategy to deliver a worldwide integrated channel delivery and developer program</li>
+                <li>Define Develop and Deliver IoT Channel marketing materials, sales training, and tools for all aspects of the
+                channel including direct and indirect partner marketing programs, VARs, Distributors, and DMR Sales teams</li>
+                <li>Track and analyze program data/indicators to improve program impact</li>
+                <li>Lead, direct and manage external consultants, agencies and other third-party vendors to ensure flawless 
+                execution of IoT Channel campaigns and programs with the ultimate goal of enabling our customers to easily
+                build their IoT connected product using Qualcomm silicon and services</li>
+                <li>Partner closely with business units and sales teams to build solid and consistent marketing programs and 
+                strategies.</li>
+              </ul>
+              <h3>Senior Business Development Manager 5/2014-8/2015</br>
+
+              Cambridge Silicon Radio, Plc Auburn Hills, MI</br>
+
+              <em>Fabless Semiconductor provider of Wireless Connectivity Solutions - 2013 Annual Revenue of $961M</em></h3>
+              <ul>
+                <li>Led the worldwide business development effort for establishing, developing, and executing key commercial 
+                agreements with both customers and partners for CSR with a focus on building and expanding CSR’s Service 
+                Delivery Platform (CSDP)</li>
+                <li>Aligned and partnered with the internal/external engineering and marketing leads and was responsible for 
+                prospecting potential customers and partners and upon identification, opening discussions with prospects, 
+                negotiating business terms, contracts and all relevant duties associated with developing new and existing 
+                partnerships.</li>
+                <li>Secured commercial engagements and partnerships for the successful positioning of the CSR Service Deliv ery 
+                Platform (CSDP); developing strong day to day relationships with business counterparts; understanding partner 
+                business and product strategy objectives and ensuring those objectives are integrated into CSR’s business 
+                strategy; working across the CSR organization to surface and support customer and partner-specific initiatives; 
+                analyzing overall deal performance; and developing initiatives designed to grow business in new areas –
+                successful partnerships included Phunware, Pulsate, Spreo, Zebra Technologie's, and Westfield Labs</li>
+                <li>Led the development and collaboration efforts for a companywide innovation portal that funneled innovation 
+                from all levels of the company to drive future looking advanced technology development, improve business 
+                process, add features/improvements to existing products, and derive new use cases for existing and future 
+                looking products – 850 ideas, 205 submitters, 5 funded projects as of August 2015</li>
+                <li>Worked with the Chief Innovation Officer to align direction for future advanced technology development</li>
+                <li>Educated executive management on key company, product, and ecosystem/partner requirements, performance 
+                indicators, and overall strategy to successfully enter Internet of Things market</li>
+                <li>Drafted anti-monopoly documents stating why the Qualcomm acquisition of CSR would not be anti-competitive 
+                and sent to a majority of the major economic countries such as The United States, Germany, MOFCOM (China), 
+                England, Japan, and South Korea</li>
+              </ul>
+
+              <h3>Senior Corporate Development Manager 1/2012-4/2014</br>
+              Cambridge Silicon Radio, Plc Auburn Hills, MI</h3>
+              <ul>
+                <li>Developed and managed company wide financial market models and market research database used for 
+                investor and executive presentations</li>
+                <li>Led initial stage financial valuation, technical due diligence, and strategic analysis for small to medium sized 
+                M&A activities such as the acquisition of the DDFA class D audio product line from Zetex Semiconductor and 
+                MAP-X DSP product line from Trident Semiconductor</li>
+                <li>Supported head of strategy and company general counsel in developing financial/operational models, legal 
+                framework, technical/financial due diligence in divestment of mobile handset wireless connectivity business to 
+                Samsung Electronics for $310M</li>
+                <li>Developed top level, matrix management driven, multi-phase product development and lifecycle planning 
+                process used for all company products</li>
+              </ul>
+              <h3>Corporate Strategy Analyst 6/2009-1/2012</br>
+              Cambridge Silicon Radio, Plc Auburn Hills, MI</h3>
+              <ul>
+                <li>Selected from a group of 800 engineers to be part of the corporate strategic planning group</li>
+                <li>Supported head of strategy in development of strategic plan during acquisitions of SiRF Technology, Inc. and 
+                Zoran Corporation as well as smaller “tuck in” technology acquisitions such as APT -X</li>
+                <li>Led strategy analysis and preparation of board and executive team recommendations for 5 year plans</li>
+                <li>Managed two summer interns to support market research and competitive analysis for company board meeting</li> 
+                <li>Performed market segmentation and industry revenue analysis that revealed the limited attractiveness of a 
+                multi-billion dollar business for CSR resulting in the closure of relevan t product lines</li>
+                <li>Designed and implemented analytical models resulting in the identification of wireless market trends</li>
+              </ul>
+              <h3>Senior DSP Software Engineer 3/2001-6/2009</br>
+              Cambridge Silicon Radio, Plc (formerly Clarity Technologies, Inc.) Auburn Hills, MI</h3>
+              <ul>
+                <li>Created technical sales and DSP programming training programs administered to internal engineers, sales 
+                personnel, customers, and distributors</li>
+                <li>Led worldwide technical training programs in several countries across North America, Europe, and Asia, 
+                providing efficiency savings of >$10M</li>
+                <li>Led technical development of strategic CSR eXtension Partner Program that brought third party software 
+                processing to the CSR platform, generating additional annual revenue of >$2M</li>
+                <li>Managed worldwide technical support program for 5 mobile handset OEMs and >20 Tier 1 suppliers with total 
+                annual revenue of >$75M</li>
+                <li>Led technical collaboration with sales team on feasibility studies, resource requirement and project timing 
+                estimations, and marketing presentations to win / secure contracts with several OEMs and Tier 1 suppliers</li>
+                <li>Designed and implemented a suite of innovative handsfree algorithms that have generated >$20M in royalties 
+                and led to acquisition of Clarity Technologies, Inc. by CSR</li>
+              </ul>
+              <h3>DSP Software Engineer 5/1999-3/2001</br>
+              Visteon Corporation Allen Park, MI</br>
+              <em>Tier 1 Automotive Supplier – 2001 Annual Sales of $17.9B</em></h3>
+              <ul>
+                <li>Designed and developed Intermediate Frequency and Baseband audio algorithms for proprietary DSP core</li>
+                <li>Presented paper, “Practitioner’s Guide to Digital Boost/Cut Filter Design” at the 1999 International Conference 
+                on Signal Processing Applications and Technology (ICSPAT) in Orlando, FL.</li>
+              </ul>
+            </div>
+            <h1>EDUCATION</h1>
+            <div>
+              Harvard University Extension School, Cambridge, MA Expected December, 2018
+
+              Masters in Information Management Systems
+
+              Major Concentration: Web Development, Database Management
+
+               Relevant Coursework: Dynamic Web Application Development, Web-Based Database Applications, Web Content 
+              Management Systems, Mobile and Cloud Computing
+              University of Michigan, Ann Arbor, MI December, 2008
+              Master of Business Administration (High Distinction)
+
+              Major Concentration: Finance, Accounting, Strategy
+
+               Relevant Coursework: Financial Valuation, Venture Capital / PE Finance, Quantitative Investment Strategy, 
+
+              Mergers and Acquisitions, Corporate Restructuring, Financial Statement Analysis
+
+              University of Michigan, Ann Arbor, MI May, 2001
+
+              Master of Science in Electrical Engineering GPA 7.24/9.0
+
+              Major Concentration: Signal Processing
+
+              <p>Relevant coursework: stochastic processes, information theory, adaptive modeling, statistical signal 
+              processing, multi-variate optimization methods, probability theory, numerical and statistical methods
+              University of Michigan, Ann Arbor, MI May, 1999</p>
+
+              Bachelor of Science in Electrical Engineering (Summa Cum Laude) GPA 3.88/4.0
+              University of Michigan, Ann Arbor, MI May, 1999</br>
+              Bachelor of Fine Arts in Performing Arts and Technology (with Highest Honors) GPA 3.88/4.0
+            </div>
+            <h1>SKILLS & INTERESTS</h1>
+            <div>
+              <ul>
+                <li>Ability to leverage technical background in the discussion and implementation of corporate strategic initiatives</li>
+                <li>Deep understanding of mobile handset and consumer products software/hardware design and market trends</li>
+                <li>Well versed in both front and back end coding languages and frameworks such as HTML5/CSS, PHP(Laravel), 
+                Javascript, jQuery, node.js, JSON, Ajax, Python, MySQL, iOS, Objective C, Swift, Wordpress, Joomla, and 
+                Drupal</li>
+                <li>Excellent coding abilities in C/C++, Matlab, and various assembly languages</li>
+                <li>Very interested in open source software/hardware movement with years of experience developing Internet of 
+                Things/Cloud Based applications/projects using several open source devices such as Raspberry Pi, Arduino, 
+                Beagle Bone Black, Intel Edison, etc.</li>
+                <li>Mentor for graduate level entrepreneurial finance classes at the University of Michigan in Ann Arbor through 
+                which I serve on the advisory board for several startups within the Southeast Michigan area</li>
+                <li>Business advisor to University of Michigan based wireless power startup company, Xondas</li>
+                <li>Consultant to several web services companies that develop contextual platforms for retail, hospitality, loyalty 
+                programs, healthcare, etc.</li>
+                <li>Highly accomplished musician, frequently playing as a session musician for leading artists</li>
+              </ul>
+            </div>
+            <h1>PATENTS</h1>
+            <div>
+              <ul>
+                <li>Alves, Rogerio; Yen, Kuan-chieh; Vartanian, Michael; Gadre, Sameer. Method and Apparatus for Improving 
+                Intelligibility of Audible Speech Represented by a Speech Signal. U.S. Patent 8,321,215, filed November 23, 
+                2009, and issued November 27, 2012.</li>
+                <li>Alves, Rogerio; Yen, Kuan-chieh; Vartanian, Michael; Gadre, Sameer. Speech Intelligibility. U.S. Patent 
+                8,489,393, filed November 23, 2009, and issued July 16, 2013.</li>
+                <li>Vartanian, Michael. Method for Embedding Product Information in Video Using Radio Frequency Information. 
+                U.S. Patent Application Serial No. 14/289,307 filed May 28, 2014.</li>
+              </ul>
+            </div>
+          </div>
         </div>
+        <!-- This tab section exhibits various jQueryUI effects -->
         <div id="tab2">
           <div id="bounce_example">Click me to bounce!</div>
           <div id="color_example">Lets Change Some Colors!!</div>
-        </div>
+        </div> <!-- End of jQuery UI effects section -->
         <!-- This section is the html portion of the jQueryUI interaction requiement -->
         <div id="tab3">
           <p>So this is a very simple game where you can drag the smiley faces to the sad or happy boxes and depending

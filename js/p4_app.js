@@ -372,6 +372,13 @@ $( "#tab_example" ).tabs({
 	heightStyle: "fill"
 });
 
+$( "#accordion" ).accordion({
+  collapsible: true,
+  active: false,
+  header: "h1",
+  heightStyle: "content"
+});
+
 $( "#bounce_example" ).click(function() {
 	$( "#bounce_example" ).toggle( "bounce", { distance: 50 }, { times: 4 }, "slow" );
 });

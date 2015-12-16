@@ -3,6 +3,12 @@
 	min-height: 1000px;
 }
 
+.mikepic {
+	width: 100px;
+	height: 150px;
+	margin: 5px;
+}
+
 .contactcontainer, .logincontainer, .registercontainer {width: 100%;}
 
 .logincontainer h3,
@@ -154,6 +160,13 @@
 }
 
 @media only all and (min-width: 768px) {
+
+	.mikepic {
+		width: 400px;
+		height: 600px;
+		margin: 25px;
+	}
+
 	.contactcontainer, .logincontainer, .registercontainer {
 		background-color: #6E6E6E;
 		margin: 0 auto;
