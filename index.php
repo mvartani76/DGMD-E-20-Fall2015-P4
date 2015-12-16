@@ -23,8 +23,10 @@
   <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
 </head>
 <body>
+  <!-- jQuery Mobile Page Widget -->
   <section data-role="page" id="home" data-theme="c">
     <header data-role="header" data-position="fixed">
+      <!-- jQuery Mobile Navbar Widget -->
       <nav data-role="navbar">
         <ul>
           <li><a class="ui-btn ui-icon-home ui-btn-icon-bottom ui-btn-active ui-state-persist" href="#home">Home</a></li>
@@ -33,7 +35,7 @@
           <li><a class="ui-btn ui-icon-grid ui-btn-icon-bottom" href="#register">Register</a></li>
           <li><a class="ui-btn ui-icon-mail ui-btn-icon-bottom" href="#contact">Contact</a></li>
         </ul>
-      </nav>
+      </nav> <!-- End jQuery Mobile Navbar Widget -->
     </header>
     <main data-role="main" class="ui-content larger-vertical">
       <h1>Web Design Home Page for Mike Vartanian</h1>
@@ -261,8 +263,10 @@
     </div><!-- /footer -->
   </section><!-- End of Home Page -->
   
+  <!-- jQuery Mobile Page Widget -->
   <section data-role="page" id="services" data-theme="c">
     <header data-role="header" data-position="fixed">
+      <!-- jQuery Mobile Navbar Widget -->
       <nav data-role="navbar">
         <ul>
           <li><a class="ui-btn ui-icon-home ui-btn-icon-bottom" href="#home">Home</a></li>
@@ -271,7 +275,7 @@
           <li><a class="ui-btn ui-icon-grid ui-btn-icon-bottom" href="#register">Register</a></li>
           <li><a class="ui-btn ui-icon-mail ui-btn-icon-bottom" href="#contact">Contact</a></li>
         </ul>
-      </nav>
+      </nav> <!-- End jQuery Mobile Navbar Widget -->
     </header>
 
     <main data-role="main" class="ui-content">
@@ -372,8 +376,10 @@
     </div><!-- /footer -->
   </section><!-- End of Services Page -->
 
+  <!-- jQuery Mobile Page Widget -->
   <section data-role="page" id="login" data-theme="c">
     <div data-role="header" data-position="fixed">
+      <!-- jQuery Mobile Navbar Widget -->
       <nav data-role="navbar">
         <ul>
           <li><a class="ui-btn ui-icon-home ui-btn-icon-bottom" href="#home">Home</a></li>
@@ -382,7 +388,7 @@
           <li><a class="ui-btn ui-icon-grid ui-btn-icon-bottom" href="#register">Register</a></li>
           <li><a class="ui-btn ui-icon-mail ui-btn-icon-bottom" href="#contact">Contact</a></li>
         </ul>
-      </nav>
+      </nav> <!-- End jQuery Mobile Navbar Widget -->
     </div>
     <main data-role="main" class="ui-content">
     
@@ -409,8 +415,10 @@
     </div><!-- /footer -->
   </section><!-- End of Login Page -->
   
+  <!-- jQuery Mobile Page Widget -->
   <section data-role="page" id="register" data-theme="c">
     <div data-role="header" data-position="fixed">
+      <!-- jQuery Mobile Navbar Widget -->
       <nav data-role="navbar">
         <ul>
           <li><a class="ui-btn ui-icon-home ui-btn-icon-bottom" href="#home">Home</a></li>
@@ -419,7 +427,7 @@
           <li><a class="ui-btn ui-icon-grid ui-btn-icon-bottom ui-btn-active ui-state-persist" href="#register">Register</a></li>
           <li><a class="ui-btn ui-icon-mail ui-btn-icon-bottom" href="#contact">Contact</a></li>
         </ul>
-      </nav>
+      </nav> <!-- End jQuery Mobile Navbar Widget -->
     </div>
 
     <main data-role="main" class="ui-content">
@@ -465,8 +473,10 @@
     </div><!-- /footer -->
   </section><!-- End of Register Page -->
 
+  <!-- jQuery Mobile Page Widget -->
   <section data-role="page" id="contact" data-theme="c">
     <div data-role="header" data-position="fixed">
+      <!-- jQuery Mobile Navbar Widget -->
       <nav data-role="navbar">
         <ul>
           <li><a class="ui-btn ui-icon-home ui-btn-icon-bottom" href="#home">Home</a></li>
@@ -475,7 +485,7 @@
           <li><a class="ui-btn ui-icon-grid ui-btn-icon-bottom" href="#register">Register</a></li>
           <li><a class="ui-btn ui-icon-mail ui-btn-icon-bottom ui-btn-active ui-state-persist" href="#contact">Contact</a></li>
         </ul>
-      </nav>
+      </nav> <!-- End jQuery Mobile Navbar Widget -->
     </div>
 
     <main data-role="main" class="ui-content">
