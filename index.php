@@ -40,21 +40,29 @@
         <p>So I am a very average web developer but I am constantly trying to improve my skills.
           I am open for work and offer many services described in my services page... On this page in the jQuery UI tabs below,
           I briefly describe myself and show some of the new and cool jQuery UI based web designs that I can offer... :)</p>
+        </br>
+        <p>The custom theme I used for the jQueryUI portion is based off the vader sample theme but with some tweaks to have
+          the theme somewhat match the jQuery mobile theme. The only place where the jQueryUI theme is observable is in
+          the tabs...</p>
       
+      <!-- So this section of the code is the jQueryUI tabs widget and should fulfill the jQueryUI widget requirement...
+            There are three tabs. The first tab is basically some text and pictures of me... The second tab is incorporates
+            some jQueryUI effects... And the third tab is a jQueryUI interaction based game that uses draggable/droppable... -->
       <div id="tab_example">
         <ul>
-          <li><a href="#tab-1"><span>One</span></a></li>
-          <li><a href="#tab-2"><span>Some Effects</span></a></li>
+          <li><a href="#tab1"><span>About Me</span></a></li>
+          <li><a href="#tab2"><span>Some Effects</span></a></li>
           <li class="jqueryUItabgame"><a href="#tab3"><span>Drag/Drop Game (Desktop Only)</span></a></li>
         </ul>
-        <div id="tab-1">
+        <div id="tab1">
           <p>First tab is active by default:</p>
           <pre><code>$( "#tabs" ).tabs(); </code></pre>
         </div>
-        <div id="tab-2">
-          <div id="bounce_example"></div>
+        <div id="tab2">
+          <div id="bounce_example">Click me to bounce!</div>
           <div id="color_example">Lets Change Some Colors!!</div>
         </div>
+        <!-- This section is the html portion of the jQueryUI interaction requiement -->
         <div id="tab3">
           <p>So this is a very simple game where you can drag the smiley faces to the sad or happy boxes and depending
             on which box you drag the smiley over, the smiley will get sad or more happy... This makes use of the jQueryUI
@@ -69,8 +77,8 @@
           <div id="dropHappy">
             <p>Drop here for Happiness...</p>
           </div>
-        </div>
-      </div>
+        </div> <!-- End of jQueryUI interaction section -->
+      </div> <!-- End of jQueryUI tabs widget section -->
     </main>
 
     <div data-role="footer" data-position="fixed" style="text-align:center;">
@@ -108,6 +116,8 @@
     <p>I will work hard finding creative ways to build affordable websites that kick-ass! (Well maybe
       not quite kick-ass but kinda good...:))
       A great website doesn't have to cost thousands, but it does have to be awesome!</p>
+    <!-- This is the start of the jQuery mobile grid system... I am using 3 columns (ui-grid-b) but change the width
+          to 100% if the screen size decreases below a threshold... -->
     <div class="ui-grid-b">
       <div class="ui-block-a">
         <div data-role="collapsible" class="collapsible-a">
@@ -125,6 +135,8 @@
           money driving traffic to websites or mobile applications that don't necessarily convert visitors into buyers.</p>
           <p>Soooo... We need to correct this... Stop paying too much for your website...</p>
           <p>Let me show you how I can help convert those visitors to buyers at a fraction of the price!</p>
+          
+          <!-- This section below exhibits the touch functionality -->
           <div class="mobileexamplefunctionality">
             <h3>Mobile App Example Functionality</h3>
             <h4>Orientation Example...</h4>
@@ -135,7 +147,7 @@
             <h4>Tap/Hold Example</h4>
             <p>Tap and hold box below to display an image...</p>
             <div id="mobileinternettaphold" class="start"></div>
-          </div>
+          </div> <!-- End of the touch functionality -->
         </div>
         <img src="./images/Web-Graphic-Design.jpg" class="servicespics-a">
       </div> <!-- End ui-block-a -->
