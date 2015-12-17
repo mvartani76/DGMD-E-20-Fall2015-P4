@@ -113,7 +113,7 @@
     background-repeat:   no-repeat;
     background-position: center center;
     width: 80px;
-    height: 80px;  	
+    height: 80px;
 }
 
 #dropSad {
@@ -140,8 +140,15 @@
 #bounce_example {
 	width: 75px;
 	height: 75px;
+	color: black;
 	background: #ccc;
+	text-align: center;
 	margin: 5px auto;
+
+	display: flex;
+    justify-content:center;
+    align-content:center;
+    flex-direction:column; /* column | row */
 }
 
 /* Color Animation Effect style for small screen size used in home page tabs */
@@ -155,6 +162,11 @@
 	padding: 1em;
 	text-align: center;
 	margin: 5px auto;
+
+	display: flex;
+    justify-content:center;
+    align-content:center;
+    flex-direction:column; /* column | row */
 }
 
 /* Pulsate Effect style for small screen size used in home page tabs */
@@ -168,6 +180,11 @@
 	padding: 1em;
 	text-align: center;
 	margin: 5px auto;
+
+	display: flex;
+    justify-content:center;
+    align-content:center;
+    flex-direction:column; /* column | row */
 }
 
 .servicespics-a, .servicespics-b, .servicespics-c {
@@ -276,8 +293,16 @@
 	#bounce_example {
 	    width: 200px;
 	    height: 200px;
+	    color: black;
 	    background: #ccc;
+	    text-align: center;
 	    margin: 15px auto;
+  		vertical-align: middle;
+
+  		display: flex;
+    	justify-content:center;
+    	align-content:center;
+    	flex-direction:column; /* column | row */
 	}
 
 	/* Color Animation Effect style for larger screen size used in home page tabs */
@@ -291,6 +316,12 @@
 	    padding: 1em;
 	    text-align: center;
 	    margin: 15px auto;
+  		vertical-align: middle;
+
+  		display: flex;
+    	justify-content:center;
+    	align-content:center;
+    	flex-direction:column; /* column | row */
 	  }
 
 	/* Pulsate Effect style for larger screen size used in home page tabs */
@@ -304,6 +335,11 @@
 		padding: 1em;
 		text-align: center;
 		margin: 15px auto;
+    	
+    	display: flex;
+    	justify-content:center;
+    	align-content:center;
+    	flex-direction:column; /* column | row */
 	}
 
 }

@@ -230,6 +230,9 @@
         </div>
         <!-- This tab section exhibits various jQueryUI effects -->
         <div id="tab2">
+          <p>So this section really shows off my lame skills at effects... There are some cool effects available
+            with jQueryUI but my average skills have not been able to really take advantage of them in any sort of
+            aesthetic way... But I know the functionality....</p>
           <div id="bounce_example">Click me to bounce!</div>
           <div id="color_example">Let's Change Some Colors!!</div>
           <div id="pulsate_example">Let's see how this pulsates!!!</div>
