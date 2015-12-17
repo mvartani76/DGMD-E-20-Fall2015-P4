@@ -505,6 +505,7 @@
             <input placeholder="Your Web Site starts with http://" id="weburl" name="weburl" type="url" tabindex="5">
           </fieldset>
           <fieldset id="radio_msg" data-role="controlgroup" data-type="horizontal">
+
             <h4>What type of message do you want to send?</h4>
               <input type="radio" id="dept1" name="dept" value="general" tabindex="6" checked>
               <label for="dept1">General</label>
@@ -518,6 +519,17 @@
           <fieldset>
             <textarea placeholder="Type your Message Here...." tabindex="10" required></textarea>
           </fieldset>
+          <h4>Preferred Day of the Week for phone contact...</h4>
+          <select multiple="multiple" data-native-menu="false" name="select-multiple-7" id="select-multiple-7">
+            <option value="">Preferred Day of the Week</option>
+            <option value="Sunday">Sunday</option>
+            <option value="Monday">Monday</option>
+            <option value="Tuesday">Tuesday</option>
+            <option value="Wednesday">Wednesday</option>
+            <option value="Thursday">Thursday</option>
+            <option value="Friday">Friday</option>
+            <option value="Saturday">Saturday</option>
+          </select>
           <h4>Preferred time for phone contact...</h4>
           <div class="ui-grid-a">
             <div class="ui-block-a">

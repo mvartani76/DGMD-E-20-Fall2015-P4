@@ -401,5 +401,4 @@ $( "#color_example" ).click(function() {
 $( "#pulsate_example" ).click(function() {
   $( "#pulsate_example" ).toggle( "pulsate", {times: 10} );
 });
-
 }); // end ready
