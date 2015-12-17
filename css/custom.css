@@ -28,6 +28,11 @@
 	padding-bottom: 1%;
 }
 
+label[for="dept1"], label[for="dept2"], label[for="dept3"], label[for="dept4"] {
+	font-size: 12px;
+}
+
+
 #services .ui-content .ui-block-a,
 #services .ui-content .ui-block-b,
 #services .ui-content .ui-block-c {
@@ -202,6 +207,10 @@
 		height: 600px;
 		margin: 25px;
 	}
+
+label[for="dept1"], label[for="dept2"], label[for="dept3"], label[for="dept4"] {
+	font-size: 15px;
+}
 
 	.contactcontainer, .logincontainer, .registercontainer {
 		background-color: #6E6E6E;

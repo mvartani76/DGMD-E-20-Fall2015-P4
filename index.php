@@ -515,7 +515,6 @@
               <input type="radio" id="dept4" name="dept" value="technical" tabindex="9">
               <label for="dept4">Technical</label>
           </fieldset>
-
           <fieldset>
             <textarea placeholder="Type your Message Here...." tabindex="10" required></textarea>
           </fieldset>
