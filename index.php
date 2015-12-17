@@ -231,7 +231,8 @@
         <!-- This tab section exhibits various jQueryUI effects -->
         <div id="tab2">
           <div id="bounce_example">Click me to bounce!</div>
-          <div id="color_example">Lets Change Some Colors!!</div>
+          <div id="color_example">Let's Change Some Colors!!</div>
+          <div id="pulsate_example">Let's see how this pulsates!!!</div>
         </div> <!-- End of jQuery UI effects section -->
         <!-- This section is the html portion of the jQueryUI interaction requiement -->
         <div id="tab3">

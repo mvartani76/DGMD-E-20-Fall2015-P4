@@ -141,6 +141,7 @@
 	width: 75px;
 	height: 75px;
 	background: #ccc;
+	margin: 5px auto;
 }
 
 /* Color Animation Effect style for small screen size used in home page tabs */
@@ -148,10 +149,25 @@
 	width: 75px;
 	height: 75px;
 	color: blue;
+	border: 2px red solid;
 	background-color: #aaa;
 	font-size: 15px;
 	padding: 1em;
 	text-align: center;
+	margin: 5px auto;
+}
+
+/* Pulsate Effect style for small screen size used in home page tabs */
+#pulsate_example {
+	width: 90px;
+	height: 60px;
+	color: grey;
+	border: 2px white solid;
+	background-color: #0B2161;
+	font-size: 15px;
+	padding: 1em;
+	text-align: center;
+	margin: 5px auto;
 }
 
 .servicespics-a, .servicespics-b, .servicespics-c {
@@ -261,6 +277,7 @@
 	    width: 200px;
 	    height: 200px;
 	    background: #ccc;
+	    margin: 15px auto;
 	}
 
 	/* Color Animation Effect style for larger screen size used in home page tabs */
@@ -269,8 +286,24 @@
 	    height: 200px;
 	    color: blue;
 	    background-color: #aaa;
+	    border: 10px red solid;
 	    font-size: 25px;
 	    padding: 1em;
 	    text-align: center;
+	    margin: 15px auto;
 	  }
+
+	/* Pulsate Effect style for larger screen size used in home page tabs */
+	#pulsate_example {
+		width: 270px;
+		height: 380px;
+		color: grey;
+		border: 10px white solid;
+		background-color: #0B2161;
+		font-size: 25px;
+		padding: 1em;
+		text-align: center;
+		margin: 15px auto;
+	}
+
 }

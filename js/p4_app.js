@@ -386,8 +386,20 @@ $( "#bounce_example" ).click(function() {
 $( "#color_example" ).click(function() {
   $( "#color_example" ).animate({
     color: "green",
-    backgroundColor: "rgb(0, 172, 199)"
+    backgroundColor: "rgb(0, 172, 199)",
+	borderBottomColor: "rgb(50, 56, 94)",
+	borderLeftColor: "rgb(50, 56, 94)",
+	borderRightColor: "rgb(50, 56, 94)",
+	borderTopColor: "rgb(50, 56, 94)",
+	columnRuleColor: "rgb(50, 92, 94)",
+	outlineColor: "rgb(130, 148, 149)",
+	textDecorationColor: "rgb(95, 81, 84)",
+	textEmphasisColor: "rgb(95, 81, 84)",
   });
+});
+
+$( "#pulsate_example" ).click(function() {
+  $( "#pulsate_example" ).toggle( "pulsate", {times: 10} );
 });
 
 }); // end ready
