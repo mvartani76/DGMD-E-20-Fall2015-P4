@@ -364,7 +364,7 @@
           their website. This means a lot of wasted money on ineffective online strategies.</p>
           <p>I work with my clients to build highly-effective online marketing strategies. No matter if it is a doctor's
           office or a restaurant or a gas station, each strategy is a customized solution for optimum results. I will try to
-          show you exactly what to do to make the "interwebs" and mobile apps work for you! And remember I do this for a
+          show you exactly what to do to make the "interwebs" and mobile apps work for you! And remember I do this for
           a very affordable price too!!!</p>
         </div>
         <img src="./images/online-strategy.png" class="servicespics-c" alt="Web Strategy Pic">
