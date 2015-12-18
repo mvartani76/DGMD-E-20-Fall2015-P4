@@ -60,9 +60,10 @@
         </ul>
         <div id="tab1">
 
-          <p>Well since I don't really know how to talk about myself, I pretty much just pasted my CV in this section...
+          <p>So.... A little about me.... Well since I don't really know how to talk about myself, I pretty much just pasted my CV in this section...
             I did, however, use the jQueryUI accordion widget to separate the different sections and I put a nice looking
             picture of myself in one of the accordion panels...:)</p>
+          <!-- I also added a jQueryUI accordion widget to separate the different sections of my CV... -->
           <div id="accordion">
             <h1>EMPLOYMENT HISTORY</h1>
             <div>

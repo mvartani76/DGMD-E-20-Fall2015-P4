@@ -1,8 +1,6 @@
 $(document).ready(function(){
 	console.log("Document Loaded");
 
-	// Part 1 form if/else validation
-
 	$('#firstname').focusout(function(event){
 		if ($('#firstname').val().length == 0) {
 			$('#firstname').css('background-color', '#0c9eed');
@@ -281,6 +279,7 @@ $(document).ready(function(){
     return false;
   });    
 
+    // jQueryUI interaction requirement... I used draggable and droppable to make a silly game
 	$(function() {
       $('#draggable1').draggable({
       	scroll: false,
@@ -299,6 +298,7 @@ $(document).ready(function(){
 	$('#dropSad').droppable(
     {
     	// change the image to the sad face emoji icon if dragging over #dropSad
+    	// Images taken from www.emojistickers.com/collections/persons
         over : function(event, ui){
         	var idd = ui.draggable.attr("id");
         	var stridd = "#" + String(idd);
@@ -311,6 +311,7 @@ $(document).ready(function(){
            	});
 		},
 		// change the image to the crying eyes emoji icon if dropped in #dropSad
+		// Images taken from www.emojistickers.com/collections/persons
         drop: function(event, ui) {
     		var idd = ui.draggable.attr("id");
     		var stridd = "#" + String(idd);
@@ -321,6 +322,7 @@ $(document).ready(function(){
            	});
   		},
   		// change (revert back) the image to the teeth emoji icon if outside #dropSad
+  		// Images taken from www.emojistickers.com/collections/persons
         out: function(event, ui) {
     		var idd = ui.draggable.attr("id");
     		var stridd = "#" + String(idd);
@@ -335,6 +337,7 @@ $(document).ready(function(){
 	$('#dropHappy').droppable(
     {
     	// change the image to the blowing kiss emoji icon if dragging over #dropHappy
+    	// Images taken from www.emojistickers.com/collections/persons
         over : function(event, ui){
         	var idd = ui.draggable.attr("id");
         	var stridd = "#" + String(idd);
@@ -347,6 +350,7 @@ $(document).ready(function(){
            	});
 		},
 		// change the image to the heart eyes emoji icon if dropped in #dropHappy
+		// Images taken from www.emojistickers.com/collections/persons
         drop: function(event, ui) {
     		var idd = ui.draggable.attr("id");
     		var stridd = "#" + String(idd);
@@ -357,6 +361,7 @@ $(document).ready(function(){
            	});
   		},
   		// change (revert back) the image to the teeth emoji icon if outside #dropHappy
+  		// Images taken from www.emojistickers.com/collections/persons
         out: function(event, ui) {
     		var idd = ui.draggable.attr("id");
     		var stridd = "#" + String(idd);
@@ -366,12 +371,14 @@ $(document).ready(function(){
                .animate({opacity: 1},{duration:50});
            	});  
     	}
-    });
+    }); // End of jQueryUI draggable/droppable requirement
 
+// jQueryUI tabs widget
 $( "#tab_example" ).tabs({
 	heightStyle: "fill"
 });
 
+// jQueryUI accordion widget
 $( "#accordion" ).accordion({
   collapsible: true,
   active: false,
@@ -379,10 +386,12 @@ $( "#accordion" ).accordion({
   heightStyle: "content"
 });
 
+// jQueryUI bounce effect
 $( "#bounce_example" ).click(function() {
 	$( "#bounce_example" ).toggle( "bounce", { distance: 50 }, { times: 4 }, "slow" );
 });
 
+// jQueryUI animate color effect
 $( "#color_example" ).click(function() {
   $( "#color_example" ).animate({
     color: "green",
@@ -398,6 +407,7 @@ $( "#color_example" ).click(function() {
   });
 });
 
+// jQueryUI pulsate effect
 $( "#pulsate_example" ).click(function() {
   $( "#pulsate_example" ).toggle( "pulsate", {times: 10} );
 });
