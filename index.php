@@ -37,12 +37,14 @@
         </ul>
       </nav> <!-- End jQuery Mobile Navbar Widget -->
     </header>
+    <!-- Web Validator flagging error for multiple <main>s so replacing other <main>s in single page
+    design to <div>s -->
     <main data-role="main" class="ui-content larger-vertical">
       <h1>Web Design Home Page for Mike Vartanian</h1>
         <p>So I am a very average web developer but I am constantly trying to improve my skills.
           I am open for work and offer many services described in my services page... On this page in the jQuery UI tabs below,
           I briefly describe myself and show some of the new and cool jQuery UI based web designs that I can offer... :)</p>
-        </br>
+        <br>
         <p>The custom theme I used for the jQueryUI portion is based off the vader sample theme but with some tweaks to have
           the theme somewhat match the jQuery mobile theme. The only place where the jQueryUI theme is observable is in
           the tabs...</p>
@@ -64,8 +66,8 @@
           <div id="accordion">
             <h1>EMPLOYMENT HISTORY</h1>
             <div>
-              <h3>Senior Business Development Manager 9/2015-Present</br>
-              Qualcomm, Inc. Auburn Hills, MI</br>
+              <h3>Senior Business Development Manager 9/2015-Present<br>
+              Qualcomm, Inc. Auburn Hills, MI<br>
               <em>Developer and innovator of advanced wireless technologies, products and services – 2015FY Revenue of $25.3B</em>
               </h3>
               <ul>
@@ -80,9 +82,9 @@
                 <li>Partner closely with business units and sales teams to build solid and consistent marketing programs and 
                 strategies.</li>
               </ul>
-              <h3>Senior Business Development Manager 5/2014-8/2015</br>
+              <h3>Senior Business Development Manager 5/2014-8/2015<br>
 
-              Cambridge Silicon Radio, Plc Auburn Hills, MI</br>
+              Cambridge Silicon Radio, Plc Auburn Hills, MI<br>
 
               <em>Fabless Semiconductor provider of Wireless Connectivity Solutions - 2013 Annual Revenue of $961M</em></h3>
               <ul>
@@ -111,7 +113,7 @@
                 England, Japan, and South Korea</li>
               </ul>
 
-              <h3>Senior Corporate Development Manager 1/2012-4/2014</br>
+              <h3>Senior Corporate Development Manager 1/2012-4/2014<br>
               Cambridge Silicon Radio, Plc Auburn Hills, MI</h3>
               <ul>
                 <li>Developed and managed company wide financial market models and market research database used for 
@@ -125,7 +127,7 @@
                 <li>Developed top level, matrix management driven, multi-phase product development and lifecycle planning 
                 process used for all company products</li>
               </ul>
-              <h3>Corporate Strategy Analyst 6/2009-1/2012</br>
+              <h3>Corporate Strategy Analyst 6/2009-1/2012<br>
               Cambridge Silicon Radio, Plc Auburn Hills, MI</h3>
               <ul>
                 <li>Selected from a group of 800 engineers to be part of the corporate strategic planning group</li>
@@ -137,7 +139,7 @@
                 multi-billion dollar business for CSR resulting in the closure of relevan t product lines</li>
                 <li>Designed and implemented analytical models resulting in the identification of wireless market trends</li>
               </ul>
-              <h3>Senior DSP Software Engineer 3/2001-6/2009</br>
+              <h3>Senior DSP Software Engineer 3/2001-6/2009<br>
               Cambridge Silicon Radio, Plc (formerly Clarity Technologies, Inc.) Auburn Hills, MI</h3>
               <ul>
                 <li>Created technical sales and DSP programming training programs administered to internal engineers, sales 
@@ -153,8 +155,8 @@
                 <li>Designed and implemented a suite of innovative handsfree algorithms that have generated >$20M in royalties 
                 and led to acquisition of Clarity Technologies, Inc. by CSR</li>
               </ul>
-              <h3>DSP Software Engineer 5/1999-3/2001</br>
-              Visteon Corporation Allen Park, MI</br>
+              <h3>DSP Software Engineer 5/1999-3/2001<br>
+              Visteon Corporation Allen Park, MI<br>
               <em>Tier 1 Automotive Supplier – 2001 Annual Sales of $17.9B</em></h3>
               <ul>
                 <li>Designed and developed Intermediate Frequency and Baseband audio algorithms for proprietary DSP core</li>
@@ -164,7 +166,7 @@
             </div>
             <h1>EDUCATION</h1>
             <div>
-              <h3>Harvard University Extension School, Cambridge, MA Expected December, 2018</br>
+              <h3>Harvard University Extension School, Cambridge, MA Expected December, 2018<br>
               Masters in Information Management Systems (I think...)</h3>
 
               Major Concentration: Web Development, Database Management
@@ -172,13 +174,13 @@
               Relevant Coursework: Dynamic Web Application Development, Web-Based Database Applications, Web Content 
               Management Systems, Mobile and Cloud Computing
               
-              <h3>University of Michigan, Ann Arbor, MI December, 2008</br>
+              <h3>University of Michigan, Ann Arbor, MI December, 2008<br>
               Master of Business Administration (High Distinction)</h3>
               Major Concentration: Finance, Accounting, Strategy
               Relevant Coursework: Financial Valuation, Venture Capital / PE Finance, Quantitative Investment Strategy, 
               Mergers and Acquisitions, Corporate Restructuring, Financial Statement Analysis
 
-              <h3>University of Michigan, Ann Arbor, MI May, 2001</br>
+              <h3>University of Michigan, Ann Arbor, MI May, 2001<br>
               Master of Science in Electrical Engineering GPA 7.24/9.0</h3>
 
               Major Concentration: Signal Processing
@@ -187,9 +189,9 @@
               processing, multi-variate optimization methods, probability theory, numerical and statistical methods
               University of Michigan, Ann Arbor, MI May, 1999</p>
 
-              <h3>Bachelor of Science in Electrical Engineering (Summa Cum Laude) GPA 3.88/4.0</br>
+              <h3>Bachelor of Science in Electrical Engineering (Summa Cum Laude) GPA 3.88/4.0<br>
               University of Michigan, Ann Arbor, MI May, 1999</h3>
-              <h3>Bachelor of Fine Arts in Performing Arts and Technology (with Highest Honors) GPA 3.88/4.0</br>
+              <h3>Bachelor of Fine Arts in Performing Arts and Technology (with Highest Honors) GPA 3.88/4.0<br>
               University of Michigan, Ann Arbor, MI May, 1999</h3>
             </div>
             <h1>SKILLS & INTERESTS</h1>
@@ -225,7 +227,7 @@
               </ul>
             </div>
             <h1>A NICE PHOTO OF ME...</h1>
-                <img src="./images/mikepic.png" class="mikepic">
+                <img src="./images/mikepic.png" class="mikepic" alt="Picture of Me">
           </div>
         </div>
         <!-- This tab section exhibits various jQueryUI effects -->
@@ -282,7 +284,7 @@
       </nav> <!-- End jQuery Mobile Navbar Widget -->
     </header>
 
-    <main data-role="main" class="ui-content">
+    <div data-role="main" class="ui-content">
     <h1 class="servicestitle">My Services</h1>
     <p>I have been providing very assignment relevant website designs for a couple years now and can utillize this knowledge
     for your small or medium sized business.</p>
@@ -326,7 +328,7 @@
             <div id="mobileinternettaphold" class="start"></div>
           </div> <!-- End of the touch functionality -->
         </div>
-        <img src="./images/Web-Graphic-Design.jpg" class="servicespics-a">
+        <img src="./images/Web-Graphic-Design.jpg" class="servicespics-a" alt="Graphic Design Pic">
       </div> <!-- End ui-block-a -->
       <div class="ui-block-b">
         <div data-role="collapsible" class="collapsible-b">
@@ -345,7 +347,7 @@
           <p>So what does this mean to you? This means that if your digital brand isn't functioning
             quite right, it's up to you to find a developer or developers, or fix it yourself. So what's the solution?</p>
         </div>
-        <img src="./images/web-hosting.jpg" class="servicespics-b">        
+        <img src="./images/web-hosting.jpg" class="servicespics-b" alt="Web Hosting Pic">        
       </div> <!-- End block-b -->
       <div class="ui-block-c">
         <div data-role="collapsible" class="collapsible-c">
@@ -364,11 +366,11 @@
           show you exactly what to do to make the "interwebs" and mobile apps work for you! And remember I do this for a
           a very affordable price too!!!</p>
         </div>
-        <img src="./images/online-strategy.png" class="servicespics-c">
+        <img src="./images/online-strategy.png" class="servicespics-c" alt="Web Strategy Pic">
       </div> <!-- End block-c -->
     </div> <!-- End grid-b -->
 
-    </main>
+    </div>
     <div data-role="footer" data-position="fixed" style="text-align:center;">
       &copy; 2015 Mike Vartanian
       <div data-role="controlgroup" data-type="horizontal">
@@ -394,7 +396,7 @@
         </ul>
       </nav> <!-- End jQuery Mobile Navbar Widget -->
     </div>
-    <main data-role="main" class="ui-content">
+    <div data-role="main" class="ui-content">
     
       <div class="logincontainer ui-corner-all">  
         <form id="login_id" method="post">
@@ -407,7 +409,7 @@
             </fieldset>
           </form>
       </div>
-    </main>
+    </div>
     <div data-role="footer" data-position="fixed" style="text-align:center;">
       &copy; 2015 Mike Vartanian
       <div data-role="controlgroup" data-type="horizontal">
@@ -434,30 +436,31 @@
       </nav> <!-- End jQuery Mobile Navbar Widget -->
     </div>
 
-    <main data-role="main" class="ui-content">
+
+    <div data-role="main" class="ui-content">
       <div class="registercontainer ui-corner-all">  
         <form id="register_id" method="post">
           <h3>Registration</h3>
           <h4>Please fill out the information below to register with my site...</h4>
           <div class="ui-grid-a">
             <div class="ui-block-a">
-              <fieldset><input placeholder="First Name" id="firstname" name="firstname" type="text" tabindex="1" required autofocus><span class="error"></span></fieldset>
-              <fieldset><input placeholder="Last Name" id="lastname" name="lastname" type="text" tabindex="2" required><span class="error"></span></fieldset>
-              <fieldset><input placeholder="Street Address 1" id="streetaddr1" name="streetaddr1" type="text" tabindex="3" required><span class="error"></span></fieldset>
-              <fieldset><input placeholder="Street Address 2" id="streetaddr2" name="streetaddr2" type="text" tabindex="4"></fieldset>
-              <fieldset><input placeholder="City" id="city" name="city" type="text" tabindex="5" required><span class="error"></span></fieldset>
-              <fieldset><input placeholder="State/Province" id="state_prov" name="state_prov" type="text" tabindex="6" required><span class="error"></span></fieldset>
-              <fieldset><input placeholder="Zip Code / Postal Code" id="zip_post_code" name="zip_post_code" type="text" tabindex="7" required><span class="error"></span></fieldset>
-              <fieldset><input placeholder="Country" id="country" name="country" type="text" tabindex="8" required><span class="error"></span></fieldset>
+              <fieldset><input placeholder="First Name" id="firstname_reg" name="firstname" type="text" tabindex="1" required autofocus><span class="error"></span></fieldset>
+              <fieldset><input placeholder="Last Name" id="lastname_reg" name="lastname" type="text" tabindex="2" required><span class="error"></span></fieldset>
+              <fieldset><input placeholder="Street Address 1" id="streetaddr1_reg" name="streetaddr1" type="text" tabindex="3" required><span class="error"></span></fieldset>
+              <fieldset><input placeholder="Street Address 2" id="streetaddr2_reg" name="streetaddr2" type="text" tabindex="4"></fieldset>
+              <fieldset><input placeholder="City" id="city" name="city_reg" type="text" tabindex="5" required><span class="error"></span></fieldset>
+              <fieldset><input placeholder="State/Province" id="state_prov_reg" name="state_prov" type="text" tabindex="6" required><span class="error"></span></fieldset>
+              <fieldset><input placeholder="Zip Code / Postal Code" id="zip_post_code_reg" name="zip_post_code" type="text" tabindex="7" required><span class="error"></span></fieldset>
+              <fieldset><input placeholder="Country" id="country" name="country_reg" type="text" tabindex="8" required><span class="error"></span></fieldset>
             </div>
             <div class="ui-block-b">
-              <fieldset><input placeholder="Your Email Address (minimum of 5 characters)" id="emailaddr" name="emailaddr" type="email" tabindex="9" required><span class="error"></span></fieldset>
-              <fieldset><input placeholder="Confirm Email Address" id="confirmemailaddr" name="confirmemailaddr" type="email" tabindex="10" required><span class="error"></span></fieldset>
-              <fieldset><input placeholder="Your Phone Number" id="phonenumber" name="phonenumber" type="tel" tabindex="11" required><span class="error"></span></fieldset>
-              <fieldset><input placeholder="Your Web Site starts with http://" id="weburl" name="weburl" type="url" tabindex="12"></fieldset>
-              <fieldset><input placeholder="Desired Username" id="username" name="username" type="text" tabindex="13" required><span class="error"></span></fieldset>
-              <fieldset><input placeholder="Password" id="userpassword" name="userpassword" type="password" tabindex="14" required><span class="error"></span></fieldset>
-              <fieldset><input placeholder="Confirm Password" id="confirmuserpassword" name="confirmuserpassword" type="password" tabindex="15" required><span class="error"></span></fieldset>
+              <fieldset><input placeholder="Your Email Address (minimum of 5 characters)" id="emailaddr_reg" name="emailaddr" type="email" tabindex="9" required><span class="error"></span></fieldset>
+              <fieldset><input placeholder="Confirm Email Address" id="confirmemailaddr_reg" name="confirmemailaddr" type="email" tabindex="10" required><span class="error"></span></fieldset>
+              <fieldset><input placeholder="Your Phone Number" id="phonenumber_reg" name="phonenumber" type="tel" tabindex="11" required><span class="error"></span></fieldset>
+              <fieldset><input placeholder="Your Web Site starts with http://" id="weburl_reg" name="weburl" type="url" tabindex="12"></fieldset>
+              <fieldset><input placeholder="Desired Username" id="username" name="username_reg" type="text" tabindex="13" required><span class="error"></span></fieldset>
+              <fieldset><input placeholder="Password" id="userpassword" name="userpassword_reg" type="password" tabindex="14" required><span class="error"></span></fieldset>
+              <fieldset><input placeholder="Confirm Password" id="confirmuserpassword_reg" name="confirmuserpassword" type="password" tabindex="15" required><span class="error"></span></fieldset>
             </div>
           </div>
           <fieldset>
@@ -465,7 +468,7 @@
           </fieldset>
         </form>
       </div>
-    </main>
+    </div>
     <div data-role="footer" data-position="fixed" style="text-align:center;">
       &copy; 2015 Mike Vartanian
       <div data-role="controlgroup" data-type="horizontal">
@@ -492,17 +495,17 @@
       </nav> <!-- End jQuery Mobile Navbar Widget -->
     </div>
 
-    <main data-role="main" class="ui-content">
+    <div data-role="main" class="ui-content">
       <div class="contactcontainer ui-corner-all">  
         <form id="contact_id" method="post">
           <h3>Quick Contact</h3>
           <h4>Contact us today, and get reply with in 24 hours!</h4>
           <fieldset>
-            <input placeholder="First Name" id="firstname" name="firstname" type="text" tabindex="1" required autofocus>
-            <input placeholder="Last Name" id="lastname" name="lastname" type="text" tabindex="2" required>
-            <input placeholder="Your Email Address" id="emailaddr" name="emailaddr" type="email" tabindex="3">
-            <input placeholder="Your Phone Number" id="phonenumber" name="phonenumber" type="tel" tabindex="4">
-            <input placeholder="Your Web Site starts with http://" id="weburl" name="weburl" type="url" tabindex="5">
+            <input placeholder="First Name" id="firstname" name="firstname_contact" type="text" tabindex="1" required autofocus>
+            <input placeholder="Last Name" id="lastname" name="lastname_contact" type="text" tabindex="2" required>
+            <input placeholder="Your Email Address" id="emailaddr_contact" name="emailaddr" type="email" tabindex="3">
+            <input placeholder="Your Phone Number" id="phonenumber_contact" name="phonenumber" type="tel" tabindex="4">
+            <input placeholder="Your Web Site starts with http://" id="weburl_contact" name="weburl" type="url" tabindex="5">
           </fieldset>
           <fieldset id="radio_msg" data-role="controlgroup" data-type="horizontal">
 
@@ -521,14 +524,14 @@
           </fieldset>
           <h4>Preferred Day of the Week for phone contact...</h4>
           <select multiple="multiple" data-native-menu="false" name="select-multiple-7" id="select-multiple-7">
-            <option value="">Preferred Day of the Week</option>
-            <option value="Sunday">Sunday</option>
-            <option value="Monday">Monday</option>
-            <option value="Tuesday">Tuesday</option>
-            <option value="Wednesday">Wednesday</option>
-            <option value="Thursday">Thursday</option>
-            <option value="Friday">Friday</option>
-            <option value="Saturday">Saturday</option>
+            <option value="">Preferred Day of the Week</option>
+            <option value="Sunday">Sunday</option>
+            <option value="Monday">Monday</option>
+            <option value="Tuesday">Tuesday</option>
+            <option value="Wednesday">Wednesday</option>
+            <option value="Thursday">Thursday</option>
+            <option value="Friday">Friday</option>
+            <option value="Saturday">Saturday</option>
           </select>
           <h4>Preferred time for phone contact...</h4>
           <div class="ui-grid-a">
@@ -551,7 +554,7 @@
           </fieldset>
         </form>
       </div>
-    </main>
+    </div>
 
     <div data-role="footer" data-position="fixed" style="text-align:center;">
       &copy; 2015 Mike Vartanian
